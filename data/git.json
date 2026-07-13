@@ -1,0 +1,873 @@
+[
+  {
+    "id": "git-1",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es Git?",
+    "opciones": [
+      "Un sistema de control de versiones.",
+      "Un lenguaje de programación.",
+      "Una base de datos.",
+      "Un servidor web."
+    ],
+    "respuesta": "Un sistema de control de versiones.",
+    "explicacion": "Git permite registrar los cambios realizados sobre los archivos de un proyecto.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-2",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál es la principal función de Git?",
+    "opciones": [
+      "Controlar y registrar los cambios de un proyecto.",
+      "Compilar programas Java.",
+      "Ejecutar consultas SQL.",
+      "Crear páginas HTML."
+    ],
+    "respuesta": "Controlar y registrar los cambios de un proyecto.",
+    "explicacion": "Git registra el historial de cambios y facilita el trabajo colaborativo.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-3",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando inicializa un nuevo repositorio Git en el directorio actual?",
+    "opciones": [
+      "git init",
+      "git start",
+      "git create",
+      "git new"
+    ],
+    "respuesta": "git init",
+    "explicacion": "git init crea un nuevo repositorio Git en la carpeta actual.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-4",
+    "categoria": "Git",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa el comando para clonar un repositorio remoto.",
+    "modo": "slots",
+    "plantilla": "{{slot0}} https://github.com/empresa/proyecto.git",
+    "opcionesSlots": [
+      "git clone",
+      "git copy",
+      "git download",
+      "git pull"
+    ],
+    "respuestasSlots": [
+      "git clone"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-5",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando muestra el estado actual de los archivos del repositorio?",
+    "opciones": [
+      "git status",
+      "git log",
+      "git list",
+      "git files"
+    ],
+    "respuesta": "git status",
+    "explicacion": "git status informa qué archivos fueron modificados, agregados o están pendientes de commit.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-6",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Basico",
+    "pregunta": "Después de ejecutar 'git status' aparece el mensaje 'nothing to commit, working tree clean'. ¿Qué significa?",
+    "opciones": [
+      "No existen cambios pendientes por guardar.",
+      "El repositorio está dañado.",
+      "Hay conflictos de fusión.",
+      "No existe repositorio Git."
+    ],
+    "respuesta": "No existen cambios pendientes por guardar.",
+    "explicacion": "Todos los cambios ya fueron confirmados o no hay modificaciones.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-7",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando agrega todos los archivos modificados al área de preparación (staging)?",
+    "opciones": [
+      "git add .",
+      "git commit",
+      "git push",
+      "git merge"
+    ],
+    "respuesta": "git add .",
+    "explicacion": "git add . agrega todos los archivos modificados del directorio actual al área de staging.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-8",
+    "categoria": "Git",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa el comando para registrar un commit con el mensaje 'Primer commit'.",
+    "modo": "slots",
+    "plantilla": "git commit {{slot0}} \"Primer commit\"",
+    "opcionesSlots": [
+      "-m",
+      "-c",
+      "-msg",
+      "-commit"
+    ],
+    "respuestasSlots": [
+      "-m"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-9",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué representa un commit en Git?",
+    "opciones": [
+      "Un punto de control con los cambios realizados.",
+      "Una carpeta del proyecto.",
+      "Una rama.",
+      "Un repositorio remoto."
+    ],
+    "respuesta": "Un punto de control con los cambios realizados.",
+    "explicacion": "Cada commit registra un conjunto de cambios en el historial del proyecto.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-10",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Acabas de modificar tres archivos y quieres verificar cuáles fueron cambiados antes de agregarlos al repositorio. ¿Qué comando utilizarías primero?",
+    "opciones": [
+      "git status",
+      "git push",
+      "git commit",
+      "git merge"
+    ],
+    "respuesta": "git status",
+    "explicacion": "El flujo recomendado es revisar el estado del repositorio antes de agregar o confirmar cambios.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "git-11",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando envía los commits locales al repositorio remoto?",
+    "opciones": [
+      "git push",
+      "git pull",
+      "git fetch",
+      "git clone"
+    ],
+    "respuesta": "git push",
+    "explicacion": "git push publica los commits locales en el repositorio remoto.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-12",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué comando descarga e integra los cambios del repositorio remoto en tu rama actual?",
+    "opciones": [
+      "git pull",
+      "git push",
+      "git fetch",
+      "git merge"
+    ],
+    "respuesta": "git pull",
+    "explicacion": "git pull descarga los cambios del repositorio remoto y los fusiona con la rama actual.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-13",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál es la principal diferencia entre git fetch y git pull?",
+    "opciones": [
+      "git fetch solo descarga cambios; git pull descarga y fusiona los cambios.",
+      "No existe ninguna diferencia.",
+      "git pull solo descarga cambios.",
+      "git fetch elimina ramas remotas."
+    ],
+    "respuesta": "git fetch solo descarga cambios; git pull descarga y fusiona los cambios.",
+    "explicacion": "git fetch actualiza la información remota sin modificar la rama local; git pull además realiza la fusión.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-14",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Para qué sirve el archivo .gitignore?",
+    "opciones": [
+      "Para indicar qué archivos o carpetas no deben ser versionados.",
+      "Para almacenar los commits.",
+      "Para crear ramas.",
+      "Para guardar usuarios de Git."
+    ],
+    "respuesta": "Para indicar qué archivos o carpetas no deben ser versionados.",
+    "explicacion": "El archivo .gitignore evita que Git rastree archivos innecesarios como temporales o configuraciones locales.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-15",
+    "categoria": "Git",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa el comando para visualizar el historial de commits.",
+    "modo": "slots",
+    "plantilla": "git {{slot0}}",
+    "opcionesSlots": [
+      "log",
+      "history",
+      "status",
+      "commits"
+    ],
+    "respuestasSlots": [
+      "log"
+    ],
+    "evaluacion": "slots",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-16",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Basico",
+    "pregunta": "Después de ejecutar 'git status' aparece el mensaje 'Changes to be committed'. ¿Qué significa?",
+    "opciones": [
+      "Los archivos ya fueron agregados al área de staging y están listos para el commit.",
+      "Los archivos ya fueron enviados a GitHub.",
+      "Los archivos fueron eliminados.",
+      "No existen cambios."
+    ],
+    "respuesta": "Los archivos ya fueron agregados al área de staging y están listos para el commit.",
+    "explicacion": "El área de staging contiene los cambios preparados para formar parte del siguiente commit.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-17",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Acabas de realizar un commit local y deseas compartirlo con tu equipo en GitHub. ¿Qué comando debes ejecutar?",
+    "opciones": [
+      "git push",
+      "git add .",
+      "git status",
+      "git init"
+    ],
+    "respuesta": "git push",
+    "explicacion": "git push publica los commits realizados localmente en el repositorio remoto.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-18",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "Un compañero realizó cambios en GitHub y deseas traerlos a tu equipo antes de continuar desarrollando. ¿Qué comando es el más adecuado?",
+    "opciones": [
+      "git pull",
+      "git commit",
+      "git add .",
+      "git init"
+    ],
+    "respuesta": "git pull",
+    "explicacion": "Antes de continuar trabajando es recomendable actualizar tu copia local con git pull.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "git-19",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Intermedio",
+    "pregunta": "Después de ejecutar 'git log', ¿qué información esperas encontrar?",
+    "opciones": [
+      "El historial de commits con autor, fecha e identificador.",
+      "Los archivos ignorados.",
+      "Las ramas remotas únicamente.",
+      "Los archivos modificados sin confirmar."
+    ],
+    "respuesta": "El historial de commits con autor, fecha e identificador.",
+    "explicacion": "git log muestra el historial completo de cambios registrados mediante commits.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-20",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Has modificado varios archivos, ejecutaste 'git add .' y luego 'git commit -m \"Corrección de errores\"'. ¿Cuál sería normalmente el siguiente paso si deseas que el resto del equipo vea esos cambios?",
+    "opciones": [
+      "git push",
+      "git init",
+      "git clone",
+      "git status"
+    ],
+    "respuesta": "git push",
+    "explicacion": "Después de crear un commit, el siguiente paso habitual es enviarlo al repositorio remoto con git push.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-21",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué es una rama (branch) en Git?",
+    "opciones": [
+      "Una línea independiente de desarrollo dentro del mismo repositorio.",
+      "Una copia del repositorio remoto.",
+      "Un respaldo automático del proyecto.",
+      "Un commit especial."
+    ],
+    "respuesta": "Una línea independiente de desarrollo dentro del mismo repositorio.",
+    "explicacion": "Las ramas permiten desarrollar funcionalidades sin afectar la rama principal.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-22",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comando crea una nueva rama llamada 'desarrollo'?",
+    "opciones": [
+      "git branch desarrollo",
+      "git new desarrollo",
+      "git create desarrollo",
+      "git checkout desarrollo"
+    ],
+    "respuesta": "git branch desarrollo",
+    "explicacion": "git branch crea una nueva rama, pero no cambia a ella.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-23",
+    "categoria": "Git",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el comando para cambiar a la rama llamada 'desarrollo' utilizando Git moderno.",
+    "modo": "slots",
+    "plantilla": "git {{slot0}} desarrollo",
+    "opcionesSlots": [
+      "switch",
+      "branch",
+      "merge",
+      "clone"
+    ],
+    "respuestasSlots": [
+      "switch"
+    ],
+    "evaluacion": "slots",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-24",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comando tradicional también permite cambiar de rama?",
+    "opciones": [
+      "git checkout",
+      "git status",
+      "git fetch",
+      "git init"
+    ],
+    "respuesta": "git checkout",
+    "explicacion": "Antes de git switch, git checkout era el comando habitual para cambiar de rama.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-25",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comando muestra todas las ramas locales del repositorio?",
+    "opciones": [
+      "git branch",
+      "git status",
+      "git log",
+      "git merge"
+    ],
+    "respuesta": "git branch",
+    "explicacion": "git branch lista las ramas existentes y marca con un asterisco la rama actual.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-26",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comando integra los cambios de una rama en la rama actual?",
+    "opciones": [
+      "git merge",
+      "git push",
+      "git clone",
+      "git init"
+    ],
+    "respuesta": "git merge",
+    "explicacion": "git merge combina los cambios de una rama con la rama en la que te encuentras.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-27",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Un compañero terminó una funcionalidad en la rama 'login'. Deseas incorporar esos cambios a la rama 'main'. ¿Qué comando utilizarías estando ubicado en 'main'?",
+    "opciones": [
+      "git merge login",
+      "git push login",
+      "git clone login",
+      "git status login"
+    ],
+    "respuesta": "git merge login",
+    "explicacion": "Primero debes ubicarte en la rama de destino y luego ejecutar git merge con el nombre de la rama origen.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "git-28",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Intermedio",
+    "pregunta": "Durante un git merge aparece el mensaje 'CONFLICT (content)'. ¿Qué significa?",
+    "opciones": [
+      "Existen cambios incompatibles que deben resolverse manualmente.",
+      "El repositorio fue eliminado.",
+      "El commit fue exitoso.",
+      "Git creó automáticamente una nueva rama."
+    ],
+    "respuesta": "Existen cambios incompatibles que deben resolverse manualmente.",
+    "explicacion": "Los conflictos aparecen cuando dos cambios afectan la misma parte de un archivo y Git no puede decidir cuál conservar.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-29",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es una buena práctica al trabajar en equipo utilizando Git?",
+    "opciones": [
+      "Desarrollar nuevas funcionalidades en ramas independientes antes de fusionarlas.",
+      "Trabajar directamente sobre la rama main en todo momento.",
+      "Evitar realizar commits frecuentes.",
+      "Eliminar el historial de commits periódicamente."
+    ],
+    "respuesta": "Desarrollar nuevas funcionalidades en ramas independientes antes de fusionarlas.",
+    "explicacion": "Trabajar con ramas reduce conflictos y facilita la colaboración entre desarrolladores.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-30",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Debes corregir un error urgente sin afectar el desarrollo de una nueva funcionalidad que está realizando otro compañero. ¿Cuál es la estrategia más adecuada?",
+    "opciones": [
+      "Crear una nueva rama para la corrección, realizar los cambios y luego fusionarla con la rama principal.",
+      "Modificar directamente la rama principal sin registrar commits.",
+      "Eliminar la rama del compañero.",
+      "Crear un nuevo repositorio desde cero."
+    ],
+    "respuesta": "Crear una nueva rama para la corrección, realizar los cambios y luego fusionarla con la rama principal.",
+    "explicacion": "Trabajar en ramas independientes permite desarrollar y corregir errores sin interferir con el trabajo de otros integrantes del equipo.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-31",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comando muestra las diferencias entre los archivos modificados y la última versión confirmada (commit)?",
+    "opciones": [
+      "git diff",
+      "git status",
+      "git log",
+      "git compare"
+    ],
+    "respuesta": "git diff",
+    "explicacion": "git diff permite visualizar los cambios realizados antes de crear un commit.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-32",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué información muestra normalmente el comando 'git diff'?",
+    "opciones": [
+      "Las líneas agregadas, modificadas o eliminadas en los archivos.",
+      "El historial completo de commits.",
+      "Las ramas existentes.",
+      "Los repositorios remotos."
+    ],
+    "respuesta": "Las líneas agregadas, modificadas o eliminadas en los archivos.",
+    "explicacion": "git diff compara versiones y resalta los cambios realizados.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-33",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué comando permite descartar los cambios realizados en un archivo antes de hacer un commit?",
+    "opciones": [
+      "git restore",
+      "git push",
+      "git merge",
+      "git clone"
+    ],
+    "respuesta": "git restore",
+    "explicacion": "git restore revierte los cambios no confirmados de un archivo.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-34",
+    "categoria": "Git",
+    "tipo": "codigo",
+    "dificultad": "Intermedio",
+    "pregunta": "Completa el comando para restaurar el archivo 'index.html' a su último estado confirmado.",
+    "modo": "slots",
+    "plantilla": "git restore {{slot0}}",
+    "opcionesSlots": [
+      "index.html",
+      "HEAD",
+      "main",
+      "origin"
+    ],
+    "respuestasSlots": [
+      "index.html"
+    ],
+    "evaluacion": "slots",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "git-35",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué comando elimina una rama local llamada 'feature-login' después de haber sido fusionada?",
+    "opciones": [
+      "git branch -d feature-login",
+      "git delete feature-login",
+      "git remove feature-login",
+      "git branch --remove feature-login"
+    ],
+    "respuesta": "git branch -d feature-login",
+    "explicacion": "La opción -d elimina una rama local que ya fue integrada mediante merge.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-36",
+    "categoria": "Git",
+    "tipo": "comando",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué comando deshace el último commit manteniendo los cambios en el área de preparación (staging)?",
+    "opciones": [
+      "git reset --soft HEAD~1",
+      "git restore .",
+      "git reset --hard HEAD~1",
+      "git checkout HEAD"
+    ],
+    "respuesta": "git reset --soft HEAD~1",
+    "explicacion": "reset --soft elimina el último commit pero conserva los archivos preparados para un nuevo commit.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-37",
+    "categoria": "Git",
+    "tipo": "debug",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué problema presenta el siguiente comando?\n\n git pus origin main",
+    "opciones": [
+      "El comando está mal escrito; debe ser 'git push origin main'.",
+      "Falta crear una rama.",
+      "Debe utilizar git pull.",
+      "No presenta errores."
+    ],
+    "respuesta": "El comando está mal escrito; debe ser 'git push origin main'.",
+    "explicacion": "Git no reconocerá 'pus' como un comando válido.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-38",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Has realizado varios cambios y deseas revisar exactamente qué modificaste antes de crear el commit. ¿Qué comando utilizarías?",
+    "opciones": [
+      "git diff",
+      "git init",
+      "git fetch",
+      "git branch"
+    ],
+    "respuesta": "git diff",
+    "explicacion": "git diff muestra las diferencias entre los archivos modificados y la última versión registrada.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-39",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Un compañero te pide que descartes los cambios realizados accidentalmente en un archivo antes del commit. ¿Qué comando es el más apropiado?",
+    "opciones": [
+      "git restore nombreArchivo",
+      "git push",
+      "git merge",
+      "git clone"
+    ],
+    "respuesta": "git restore nombreArchivo",
+    "explicacion": "git restore devuelve el archivo a su estado del último commit.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-40",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Después de finalizar una funcionalidad, hacer commit y enviarla a GitHub, el líder técnico confirma que fue integrada correctamente. ¿Qué buena práctica es recomendable realizar con la rama de trabajo?",
+    "opciones": [
+      "Eliminar la rama local si ya no será utilizada.",
+      "Renombrar la rama como main.",
+      "Eliminar el repositorio.",
+      "Borrar el historial de commits."
+    ],
+    "respuesta": "Eliminar la rama local si ya no será utilizada.",
+    "explicacion": "Eliminar ramas que ya fueron integradas ayuda a mantener el repositorio organizado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-41",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Acabas de clonar un proyecto desde GitHub. ¿Cuál debería ser normalmente el primer comando para verificar el estado del repositorio antes de comenzar a trabajar?",
+    "opciones": [
+      "git status",
+      "git push",
+      "git merge",
+      "git reset"
+    ],
+    "respuesta": "git status",
+    "explicacion": "Es una buena práctica revisar el estado del repositorio antes de comenzar a realizar cambios.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-42",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es el flujo correcto para guardar y publicar una nueva funcionalidad en Git?",
+    "opciones": [
+      "git status → git add → git commit → git push",
+      "git push → git commit → git add",
+      "git add → git push → git commit",
+      "git commit → git init → git push"
+    ],
+    "respuesta": "git status → git add → git commit → git push",
+    "explicacion": "Este es el flujo básico recomendado para registrar y compartir cambios.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-43",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Avanzado",
+    "pregunta": "Durante un 'git pull' aparece un conflicto de fusión (merge conflict). ¿Qué significa?",
+    "opciones": [
+      "Git no pudo combinar automáticamente los cambios y requiere intervención del desarrollador.",
+      "El repositorio fue eliminado.",
+      "No existe conexión a Internet.",
+      "El repositorio remoto está vacío."
+    ],
+    "respuesta": "Git no pudo combinar automáticamente los cambios y requiere intervención del desarrollador.",
+    "explicacion": "Cuando dos cambios afectan la misma parte de un archivo, Git solicita que el desarrollador resuelva el conflicto.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-44",
+    "categoria": "Git",
+    "tipo": "debug",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué problema presenta el siguiente comando?\n\ngit commmit -m \"Actualización\"",
+    "opciones": [
+      "La palabra commit está mal escrita.",
+      "Falta el parámetro -m.",
+      "El mensaje del commit debe ir sin comillas.",
+      "No presenta errores."
+    ],
+    "respuesta": "La palabra commit está mal escrita.",
+    "explicacion": "El comando correcto es git commit.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-45",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Antes de comenzar una nueva funcionalidad, ¿qué práctica ayuda a reducir conflictos con el trabajo del equipo?",
+    "opciones": [
+      "Actualizar la rama local con git pull.",
+      "Ejecutar git init nuevamente.",
+      "Eliminar todas las ramas.",
+      "Crear un nuevo repositorio."
+    ],
+    "respuesta": "Actualizar la rama local con git pull.",
+    "explicacion": "Trabajar sobre una copia actualizada reduce la probabilidad de conflictos posteriores.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-46",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Un compañero modificó el mismo archivo que tú. Al intentar hacer merge aparece un conflicto. ¿Cuál es la mejor práctica?",
+    "opciones": [
+      "Revisar el conflicto, decidir qué cambios conservar, probar el código y luego realizar el commit de la fusión.",
+      "Eliminar el archivo.",
+      "Ejecutar git init.",
+      "Borrar el repositorio remoto."
+    ],
+    "respuesta": "Revisar el conflicto, decidir qué cambios conservar, probar el código y luego realizar el commit de la fusión.",
+    "explicacion": "Los conflictos deben resolverse manualmente para garantizar que el resultado sea correcto.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-47",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Por qué es recomendable realizar commits pequeños y frecuentes?",
+    "opciones": [
+      "Porque facilitan el seguimiento de cambios, la revisión de código y la recuperación ante errores.",
+      "Porque Git no permite commits grandes.",
+      "Porque reducen el tamaño del repositorio remoto automáticamente.",
+      "Porque eliminan la necesidad de usar ramas."
+    ],
+    "respuesta": "Porque facilitan el seguimiento de cambios, la revisión de código y la recuperación ante errores.",
+    "explicacion": "Los commits pequeños hacen que el historial sea más claro y sencillo de mantener.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-48",
+    "categoria": "Git",
+    "tipo": "analizar-salida",
+    "dificultad": "Avanzado",
+    "pregunta": "Después de ejecutar 'git status' aparece el mensaje 'Your branch is up to date with origin/main'. ¿Qué significa?",
+    "opciones": [
+      "La rama local está sincronizada con la rama remota.",
+      "No existe repositorio remoto.",
+      "Existen conflictos pendientes.",
+      "Debes ejecutar git init."
+    ],
+    "respuesta": "La rama local está sincronizada con la rama remota.",
+    "explicacion": "Git indica que no existen commits pendientes entre la rama local y el repositorio remoto.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-49",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En un proyecto colaborativo, ¿qué práctica contribuye más a mantener un historial claro y fácil de entender?",
+    "opciones": [
+      "Escribir mensajes de commit descriptivos y significativos.",
+      "Usar siempre el mismo mensaje de commit.",
+      "Hacer un único commit al finalizar todo el proyecto.",
+      "Eliminar el historial periódicamente."
+    ],
+    "respuesta": "Escribir mensajes de commit descriptivos y significativos.",
+    "explicacion": "Los mensajes claros facilitan comprender qué cambios se realizaron y por qué.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "git-50",
+    "categoria": "Git",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Trabajas en una empresa con varios desarrolladores. ¿Cuál de las siguientes prácticas refleja mejor un flujo de trabajo profesional con Git?",
+    "opciones": [
+      "Crear ramas para nuevas funcionalidades, realizar commits frecuentes, actualizar con git pull y fusionar los cambios cuando estén listos.",
+      "Trabajar siempre directamente sobre main.",
+      "Hacer un solo commit cuando termine todo el proyecto.",
+      "Evitar el uso de ramas para simplificar el trabajo."
+    ],
+    "respuesta": "Crear ramas para nuevas funcionalidades, realizar commits frecuentes, actualizar con git pull y fusionar los cambios cuando estén listos.",
+    "explicacion": "Este flujo favorece la colaboración, reduce conflictos y facilita el mantenimiento del proyecto.",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]
+

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repaso</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <p class="eyebrow">Entrenamiento técnico</p>
+        <h1>Simulacro de programación</h1>
+        <p class="hero-copy">
+          Practica preguntas técnicas por tecnología, responde una por una y
+          revisa tu avance, puntaje y resultados finales en una experiencia más
+          dinámica.
+        </p>
+      </section>
+
+      <section class="panel panel-form">
+        <form id="formTecnologias" class="tech-form">
+          <label for="tecnologias">Elige una tecnología para comenzar</label>
+          <div class="tech-form-row">
+            <select id="tecnologias" name="tecnologias">
+              <option value="logica">Lógica de programación</option>
+              <option value="html">HTML</option>
+              <option value="python">Python</option>
+              <option value="java">Java</option>
+              <option value="sql">SQL</option>
+              <option value="git">Git- Control de versiones</option>
+            </select>
+            <button type="submit">Comenzar</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="estadoQuiz" class="panel status-panel oculto" aria-live="polite">
+        <div class="status-item">
+          <span class="status-label">Tecnología</span>
+          <strong id="estadoTecnologia">-</strong>
+        </div>
+        <div class="status-item">
+          <span class="status-label">Progreso</span>
+          <strong id="estadoProgreso">0/0</strong>
+        </div>
+        <div class="status-item">
+          <span class="status-label">Puntaje</span>
+          <strong id="estadoPuntaje">0</strong>
+        </div>
+        <div class="status-item">
+          <span class="status-label">Tiempo</span>
+          <strong id="estadoTiempo">--</strong>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div id="barraProgreso" class="progress-fill"></div>
+        </div>
+      </section>
+
+      <section id="contenido" class="panel contenido activo">
+        <div class="empty-state">
+          <h2>Selecciona una tecnología</h2>
+          <p>
+            Elige un tema y comienza a responder preguntas. Cuando un archivo no
+            tenga contenido, te mostraremos un estado claro para que puedas
+            completarlo después.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,860 @@
+[
+  {
+    "id": "sql-1",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué instrucción SQL se utiliza para consultar información almacenada en una tabla?",
+    "opciones": [
+      "SELECT",
+      "GET",
+      "SHOW",
+      "READ"
+    ],
+    "respuesta": "SELECT",
+    "explicacion": "SELECT permite consultar registros de una o varias tablas.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-2",
+    "categoria": "SQL",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la consulta para obtener todos los registros de la tabla empleados.",
+    "modo": "slots",
+    "plantilla": "{{slot0}} * FROM empleados;",
+    "opcionesSlots": [
+      "SELECT",
+      "GET",
+      "SHOW",
+      "READ"
+    ],
+    "respuestasSlots": [
+      "SELECT"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-3",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué consulta obtiene únicamente el nombre y el cargo de todos los empleados?",
+    "opciones": [
+      "SELECT nombre, cargo FROM empleados;",
+      "SELECT * FROM empleados;",
+      "GET nombre, cargo FROM empleados;",
+      "SHOW empleados;"
+    ],
+    "respuesta": "SELECT nombre, cargo FROM empleados;",
+    "explicacion": "Se seleccionan únicamente las columnas requeridas.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-4",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué cláusula se utiliza para filtrar registros según una condición?",
+    "opciones": [
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "respuesta": "WHERE",
+    "explicacion": "WHERE permite seleccionar únicamente los registros que cumplen una condición.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-5",
+    "categoria": "SQL",
+    "tipo": "codigo",
+    "dificultad": "Basico",
+    "pregunta": "Completa la consulta para obtener los empleados cuyo cargo sea 'Analista'.",
+    "modo": "slots",
+    "plantilla": "SELECT * FROM empleados {{slot0}} cargo = 'Analista';",
+    "opcionesSlots": [
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "respuestasSlots": [
+      "WHERE"
+    ],
+    "evaluacion": "slots",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-6",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta obtiene todos los equipos cuyo estado sea 'Disponible'?",
+    "opciones": [
+      "SELECT * FROM equipos WHERE estado = 'Disponible';",
+      "SELECT estado FROM equipos;",
+      "SELECT * FROM equipos;",
+      "SHOW equipos;"
+    ],
+    "respuesta": "SELECT * FROM equipos WHERE estado = 'Disponible';",
+    "explicacion": "La condición filtra únicamente los equipos disponibles.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-7",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué símbolo representa 'todos los campos' en una consulta SELECT?",
+    "opciones": [
+      "*",
+      "%",
+      "#",
+      "&"
+    ],
+    "respuesta": "*",
+    "explicacion": "El asterisco (*) selecciona todas las columnas de una tabla.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-8",
+    "categoria": "SQL",
+    "tipo": "analizar-salida",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué devuelve la siguiente consulta?\n\nSELECT nombre FROM empleados;",
+    "opciones": [
+      "Solo la columna nombre.",
+      "Todas las columnas.",
+      "Solo el número de empleados.",
+      "Un error."
+    ],
+    "respuesta": "Solo la columna nombre.",
+    "explicacion": "La consulta selecciona únicamente la columna indicada.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-9",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál instrucción SQL se utiliza para insertar un nuevo registro en una tabla?",
+    "opciones": [
+      "INSERT INTO",
+      "ADD",
+      "CREATE ROW",
+      "UPDATE"
+    ],
+    "respuesta": "INSERT INTO",
+    "explicacion": "INSERT INTO agrega nuevos registros a una tabla.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-10",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta inserta correctamente un nuevo empleado llamado 'Ana', con cargo 'Analista' y salario 2500000?",
+    "opciones": [
+      "INSERT INTO empleados (nombre, cargo, salario) VALUES ('Ana', 'Analista', 2500000);",
+      "ADD INTO empleados VALUES ('Ana','Analista',2500000);",
+      "CREATE empleado ('Ana','Analista',2500000);",
+      "UPDATE empleados SET nombre='Ana';"
+    ],
+    "respuesta": "INSERT INTO empleados (nombre, cargo, salario) VALUES ('Ana', 'Analista', 2500000);",
+    "explicacion": "INSERT INTO junto con VALUES permite agregar un nuevo registro indicando las columnas correspondientes.",
+    "puntos": 10,
+    "timeLimit": 30
+  },
+  {
+    "id": "sql-11",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta actualiza el salario del empleado con id = 5 a 3000000?",
+    "opciones": [
+      "UPDATE empleados SET salario = 3000000 WHERE id = 5;",
+      "MODIFY empleados salario = 3000000;",
+      "CHANGE empleados salario = 3000000;",
+      "INSERT INTO empleados VALUES (3000000);"
+    ],
+    "respuesta": "UPDATE empleados SET salario = 3000000 WHERE id = 5;",
+    "explicacion": "UPDATE modifica registros existentes utilizando una condición WHERE.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-12",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta elimina el empleado cuyo id es 8?",
+    "opciones": [
+      "DELETE FROM empleados WHERE id = 8;",
+      "REMOVE empleados WHERE id = 8;",
+      "DROP empleados WHERE id = 8;",
+      "DELETE empleados;"
+    ],
+    "respuesta": "DELETE FROM empleados WHERE id = 8;",
+    "explicacion": "DELETE elimina registros específicos utilizando WHERE.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-13",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué cláusula permite ordenar el resultado de una consulta?",
+    "opciones": [
+      "ORDER BY",
+      "GROUP BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "respuesta": "ORDER BY",
+    "explicacion": "ORDER BY organiza los registros en orden ascendente o descendente.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-14",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta muestra los empleados ordenados por salario de mayor a menor?",
+    "opciones": [
+      "SELECT * FROM empleados ORDER BY salario DESC;",
+      "SELECT * FROM empleados ORDER salario;",
+      "SELECT * FROM empleados GROUP BY salario;",
+      "SELECT * FROM empleados ORDER BY salario ASC;"
+    ],
+    "respuesta": "SELECT * FROM empleados ORDER BY salario DESC;",
+    "explicacion": "DESC ordena los registros de mayor a menor.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-15",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué función devuelve la cantidad de registros de una consulta?",
+    "opciones": [
+      "COUNT()",
+      "SUM()",
+      "AVG()",
+      "MAX()"
+    ],
+    "respuesta": "COUNT()",
+    "explicacion": "COUNT() cuenta la cantidad de filas devueltas.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-16",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta cuenta cuántos empleados existen?",
+    "opciones": [
+      "SELECT COUNT(*) FROM empleados;",
+      "SELECT TOTAL(*) FROM empleados;",
+      "SELECT SUM(*) FROM empleados;",
+      "SELECT empleados FROM COUNT;"
+    ],
+    "respuesta": "SELECT COUNT(*) FROM empleados;",
+    "explicacion": "COUNT(*) cuenta todas las filas de la tabla.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-17",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta obtiene el salario más alto registrado?",
+    "opciones": [
+      "SELECT MAX(salario) FROM empleados;",
+      "SELECT HIGH(salario) FROM empleados;",
+      "SELECT TOP(salario) FROM empleados;",
+      "SELECT salario FROM empleados;"
+    ],
+    "respuesta": "SELECT MAX(salario) FROM empleados;",
+    "explicacion": "MAX() devuelve el valor máximo de una columna.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-18",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Basico",
+    "pregunta": "¿Cuál consulta obtiene el salario promedio de los empleados?",
+    "opciones": [
+      "SELECT AVG(salario) FROM empleados;",
+      "SELECT MEDIA(salario) FROM empleados;",
+      "SELECT SUM(salario) FROM empleados;",
+      "SELECT COUNT(salario) FROM empleados;"
+    ],
+    "respuesta": "SELECT AVG(salario) FROM empleados;",
+    "explicacion": "AVG() calcula el promedio de una columna numérica.",
+    "puntos": 15,
+    "timeLimit": 35
+  },
+  {
+    "id": "sql-19",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál consulta obtiene la suma de todos los salarios?",
+    "opciones": [
+      "SELECT SUM(salario) FROM empleados;",
+      "SELECT TOTAL(salario) FROM empleados;",
+      "SELECT COUNT(salario) FROM empleados;",
+      "SELECT salario FROM empleados;"
+    ],
+    "respuesta": "SELECT SUM(salario) FROM empleados;",
+    "explicacion": "SUM() calcula la suma de todos los valores de una columna.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-20",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Una empresa desea conocer únicamente los cargos diferentes registrados en la base de datos. ¿Qué consulta utilizarías?",
+    "opciones": [
+      "SELECT DISTINCT cargo FROM empleados;",
+      "SELECT UNIQUE cargo FROM empleados;",
+      "SELECT cargo FROM empleados;",
+      "SELECT ALL cargo FROM empleados;"
+    ],
+    "respuesta": "SELECT DISTINCT cargo FROM empleados;",
+    "explicacion": "DISTINCT elimina los valores duplicados y muestra únicamente los diferentes.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-21",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál consulta obtiene los empleados cuyo nombre comienza con la letra 'A'?",
+    "opciones": [
+      "SELECT * FROM empleados WHERE nombre LIKE 'A%';",
+      "SELECT * FROM empleados WHERE nombre = 'A%';",
+      "SELECT * FROM empleados WHERE nombre STARTS 'A';",
+      "SELECT * FROM empleados WHERE nombre IN ('A');"
+    ],
+    "respuesta": "SELECT * FROM empleados WHERE nombre LIKE 'A%';",
+    "explicacion": "El símbolo % representa cualquier cantidad de caracteres después de la letra A.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-22",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué consulta obtiene los empleados cuyo salario esté entre 2.000.000 y 3.000.000?",
+    "opciones": [
+      "SELECT * FROM empleados WHERE salario BETWEEN 2000000 AND 3000000;",
+      "SELECT * FROM empleados WHERE salario > 2000000 < 3000000;",
+      "SELECT * FROM empleados WHERE salario IN 2000000,3000000;",
+      "SELECT * FROM empleados WHERE salario RANGE 2000000 TO 3000000;"
+    ],
+    "respuesta": "SELECT * FROM empleados WHERE salario BETWEEN 2000000 AND 3000000;",
+    "explicacion": "BETWEEN permite consultar valores dentro de un rango.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-23",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué consulta obtiene los empleados cuyo cargo sea 'Analista' o 'Desarrollador'?",
+    "opciones": [
+      "SELECT * FROM empleados WHERE cargo IN ('Analista','Desarrollador');",
+      "SELECT * FROM empleados WHERE cargo = ('Analista','Desarrollador');",
+      "SELECT * FROM empleados WHERE cargo BETWEEN 'Analista' AND 'Desarrollador';",
+      "SELECT * FROM empleados WHERE cargo LIKE ('Analista','Desarrollador');"
+    ],
+    "respuesta": "SELECT * FROM empleados WHERE cargo IN ('Analista','Desarrollador');",
+    "explicacion": "IN permite comparar una columna con varios valores.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-24",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué operador comodín representa cualquier cantidad de caracteres en una cláusula LIKE?",
+    "opciones": [
+      "%",
+      "_",
+      "*",
+      "#"
+    ],
+    "respuesta": "%",
+    "explicacion": "El comodín % representa cero o más caracteres.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-25",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál consulta obtiene los equipos cuyo usuario_id aún no ha sido asignado?",
+    "opciones": [
+      "SELECT * FROM equipos WHERE usuario_id IS NULL;",
+      "SELECT * FROM equipos WHERE usuario_id = NULL;",
+      "SELECT * FROM equipos WHERE usuario_id == NULL;",
+      "SELECT * FROM equipos WHERE usuario_id EMPTY;"
+    ],
+    "respuesta": "SELECT * FROM equipos WHERE usuario_id IS NULL;",
+    "explicacion": "Los valores NULL se comparan utilizando IS NULL.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-26",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué consulta obtiene únicamente los equipos que sí tienen un usuario asignado?",
+    "opciones": [
+      "SELECT * FROM equipos WHERE usuario_id IS NOT NULL;",
+      "SELECT * FROM equipos WHERE usuario_id <> NULL;",
+      "SELECT * FROM equipos WHERE usuario_id != NULL;",
+      "SELECT * FROM equipos WHERE usuario_id EXISTS;"
+    ],
+    "respuesta": "SELECT * FROM equipos WHERE usuario_id IS NOT NULL;",
+    "explicacion": "IS NOT NULL permite obtener únicamente los registros con un valor asignado.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-27",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es la finalidad de una PRIMARY KEY?",
+    "opciones": [
+      "Identificar de manera única cada registro de una tabla.",
+      "Ordenar automáticamente los registros.",
+      "Relacionar dos bases de datos.",
+      "Eliminar registros duplicados."
+    ],
+    "respuesta": "Identificar de manera única cada registro de una tabla.",
+    "explicacion": "Una clave primaria garantiza que cada registro tenga un identificador único.",
+    "puntos": 20,
+    "timeLimit": 40
+  },
+  {
+    "id": "sql-28",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál es la finalidad de una FOREIGN KEY?",
+    "opciones": [
+      "Relacionar una tabla con otra mediante un campo común.",
+      "Crear una copia de seguridad.",
+      "Eliminar registros automáticamente.",
+      "Ordenar los datos."
+    ],
+    "respuesta": "Relacionar una tabla con otra mediante un campo común.",
+    "explicacion": "La clave foránea establece la relación entre tablas.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-29",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál consulta obtiene el nombre del usuario y el serial del equipo asignado utilizando un INNER JOIN?",
+    "opciones": [
+      "SELECT usuarios.nombre, equipos.serial FROM usuarios INNER JOIN equipos ON usuarios.id = equipos.usuario_id;",
+      "SELECT * FROM usuarios, equipos;",
+      "SELECT usuarios.nombre FROM equipos;",
+      "SELECT equipos.serial FROM usuarios;"
+    ],
+    "respuesta": "SELECT usuarios.nombre, equipos.serial FROM usuarios INNER JOIN equipos ON usuarios.id = equipos.usuario_id;",
+    "explicacion": "INNER JOIN combina los registros relacionados entre ambas tablas mediante la clave foránea.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-30",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "Una empresa desea listar todos los tickets junto con el nombre del usuario que los creó. ¿Qué operación SQL es la más adecuada?",
+    "opciones": [
+      "INNER JOIN",
+      "ORDER BY",
+      "GROUP BY",
+      "DISTINCT"
+    ],
+    "respuesta": "INNER JOIN",
+    "explicacion": "INNER JOIN permite combinar la información de las tablas tickets y usuarios utilizando la relación entre ellas.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-31",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué cláusula se utiliza para agrupar registros que tienen un mismo valor?",
+    "opciones": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "respuesta": "GROUP BY",
+    "explicacion": "GROUP BY agrupa los registros que comparten un mismo valor en una o varias columnas.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-32",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál consulta cuenta cuántos empleados existen por cada cargo?",
+    "opciones": [
+      "SELECT cargo, COUNT(*) FROM empleados GROUP BY cargo;",
+      "SELECT COUNT(cargo) FROM empleados;",
+      "SELECT cargo FROM empleados;",
+      "SELECT * FROM empleados GROUP BY nombre;"
+    ],
+    "respuesta": "SELECT cargo, COUNT(*) FROM empleados GROUP BY cargo;",
+    "explicacion": "GROUP BY agrupa por cargo y COUNT(*) cuenta los registros de cada grupo.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-33",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Qué cláusula permite filtrar el resultado después de aplicar GROUP BY?",
+    "opciones": [
+      "HAVING",
+      "WHERE",
+      "ORDER BY",
+      "JOIN"
+    ],
+    "respuesta": "HAVING",
+    "explicacion": "HAVING filtra grupos generados por GROUP BY.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-34",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Cuál consulta muestra únicamente los cargos que tienen más de 3 empleados?",
+    "opciones": [
+      "SELECT cargo, COUNT(*) FROM empleados GROUP BY cargo HAVING COUNT(*) > 3;",
+      "SELECT cargo FROM empleados WHERE COUNT(*) > 3;",
+      "SELECT * FROM empleados HAVING cargo;",
+      "SELECT cargo GROUP BY empleados;"
+    ],
+    "respuesta": "SELECT cargo, COUNT(*) FROM empleados GROUP BY cargo HAVING COUNT(*) > 3;",
+    "explicacion": "HAVING permite filtrar grupos utilizando funciones de agregación.",
+    "puntos": 25,
+    "timeLimit": 45
+  },
+  {
+    "id": "sql-35",
+    "categoria": "SQL",
+    "tipo": "analizar-salida",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué devuelve la siguiente consulta?\n\nSELECT COUNT(*) FROM empleados;",
+    "opciones": [
+      "La cantidad total de empleados.",
+      "El salario promedio.",
+      "Todos los empleados.",
+      "El empleado con mayor salario."
+    ],
+    "respuesta": "La cantidad total de empleados.",
+    "explicacion": "COUNT(*) cuenta todas las filas de la tabla.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-36",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál consulta muestra el nombre del usuario y el estado del ticket correspondiente?",
+    "opciones": [
+      "SELECT usuarios.nombre, tickets.estado FROM usuarios INNER JOIN tickets ON usuarios.id = tickets.usuario_id;",
+      "SELECT * FROM usuarios;",
+      "SELECT nombre FROM tickets;",
+      "SELECT usuarios.estado FROM usuarios;"
+    ],
+    "respuesta": "SELECT usuarios.nombre, tickets.estado FROM usuarios INNER JOIN tickets ON usuarios.id = tickets.usuario_id;",
+    "explicacion": "INNER JOIN permite relacionar usuarios y tickets mediante la clave foránea.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-37",
+    "categoria": "SQL",
+    "tipo": "debug",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué error presenta la siguiente consulta?\n\nSELECT FROM empleados;",
+    "opciones": [
+      "Falta indicar las columnas o el símbolo * después de SELECT.",
+      "FROM está mal escrito.",
+      "La tabla empleados no puede consultarse.",
+      "No presenta errores."
+    ],
+    "respuesta": "Falta indicar las columnas o el símbolo * después de SELECT.",
+    "explicacion": "Después de SELECT se deben indicar las columnas o utilizar *.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-38",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál consulta utiliza correctamente un alias para la columna nombre?",
+    "opciones": [
+      "SELECT nombre AS Empleado FROM empleados;",
+      "SELECT nombre TO Empleado FROM empleados;",
+      "SELECT nombre = Empleado FROM empleados;",
+      "SELECT nombre ALIAS Empleado FROM empleados;"
+    ],
+    "respuesta": "SELECT nombre AS Empleado FROM empleados;",
+    "explicacion": "AS permite asignar un nombre alternativo a una columna en el resultado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-39",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Una empresa desea conocer cuántos equipos tiene asignado cada usuario. ¿Qué estrategia SQL utilizarías?",
+    "opciones": [
+      "INNER JOIN entre usuarios y equipos, GROUP BY usuario y COUNT(*).",
+      "Únicamente ORDER BY.",
+      "Solo DISTINCT.",
+      "Solo WHERE."
+    ],
+    "respuesta": "INNER JOIN entre usuarios y equipos, GROUP BY usuario y COUNT(*).",
+    "explicacion": "Es necesario relacionar las tablas y agrupar por usuario para contar los equipos.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-40",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "En una base de datos relacional, ¿por qué es recomendable utilizar claves foráneas?",
+    "opciones": [
+      "Porque garantizan la relación e integridad entre tablas.",
+      "Porque reemplazan las claves primarias.",
+      "Porque eliminan automáticamente los registros duplicados.",
+      "Porque hacen que todas las consultas sean más rápidas."
+    ],
+    "respuesta": "Porque garantizan la relación e integridad entre tablas.",
+    "explicacion": "Las claves foráneas mantienen la integridad referencial y evitan relaciones inconsistentes.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-41",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál consulta obtiene el nombre de cada usuario junto con la cantidad de equipos que tiene asignados?",
+    "opciones": [
+      "SELECT u.nombre, COUNT(e.id) AS cantidad FROM usuarios u INNER JOIN equipos e ON u.id = e.usuario_id GROUP BY u.nombre;",
+      "SELECT COUNT(*) FROM equipos;",
+      "SELECT u.nombre FROM usuarios;",
+      "SELECT * FROM usuarios ORDER BY nombre;"
+    ],
+    "respuesta": "SELECT u.nombre, COUNT(e.id) AS cantidad FROM usuarios u INNER JOIN equipos e ON u.id = e.usuario_id GROUP BY u.nombre;",
+    "explicacion": "Es necesario relacionar ambas tablas y agrupar por usuario para contar sus equipos.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-42",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué consulta obtiene únicamente los cargos cuyo salario promedio sea superior a 3.000.000?",
+    "opciones": [
+      "SELECT cargo, AVG(salario) FROM empleados GROUP BY cargo HAVING AVG(salario) > 3000000;",
+      "SELECT AVG(salario) FROM empleados WHERE salario > 3000000;",
+      "SELECT cargo FROM empleados WHERE AVG(salario) > 3000000;",
+      "SELECT * FROM empleados GROUP BY salario;"
+    ],
+    "respuesta": "SELECT cargo, AVG(salario) FROM empleados GROUP BY cargo HAVING AVG(salario) > 3000000;",
+    "explicacion": "HAVING permite filtrar grupos utilizando funciones de agregación.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-43",
+    "categoria": "SQL",
+    "tipo": "analizar-salida",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué devuelve la siguiente consulta?\n\nSELECT DISTINCT estado FROM tickets;",
+    "opciones": [
+      "Los diferentes estados registrados en la tabla.",
+      "Todos los tickets.",
+      "La cantidad de tickets.",
+      "Los estados ordenados alfabéticamente."
+    ],
+    "respuesta": "Los diferentes estados registrados en la tabla.",
+    "explicacion": "DISTINCT elimina los valores repetidos.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-44",
+    "categoria": "SQL",
+    "tipo": "debug",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué error presenta la siguiente consulta?\n\nSELECT nombre cargo FROM empleados;",
+    "opciones": [
+      "Falta la coma entre las columnas nombre y cargo.",
+      "FROM está mal ubicado.",
+      "SELECT está mal escrito.",
+      "No presenta errores."
+    ],
+    "respuesta": "Falta la coma entre las columnas nombre y cargo.",
+    "explicacion": "Cuando se seleccionan varias columnas deben separarse mediante comas.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-45",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál consulta obtiene el menor salario registrado en la empresa?",
+    "opciones": [
+      "SELECT MIN(salario) FROM empleados;",
+      "SELECT LOW(salario) FROM empleados;",
+      "SELECT salario FROM empleados ORDER BY salario;",
+      "SELECT FIRST(salario) FROM empleados;"
+    ],
+    "respuesta": "SELECT MIN(salario) FROM empleados;",
+    "explicacion": "MIN() devuelve el valor mínimo de una columna.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-46",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué consulta obtiene los empleados cuyo nombre termina en 'ez'?",
+    "opciones": [
+      "SELECT * FROM empleados WHERE nombre LIKE '%ez';",
+      "SELECT * FROM empleados WHERE nombre = '%ez';",
+      "SELECT * FROM empleados WHERE nombre LIKE 'ez%';",
+      "SELECT * FROM empleados WHERE nombre IN ('ez');"
+    ],
+    "respuesta": "SELECT * FROM empleados WHERE nombre LIKE '%ez';",
+    "explicacion": "El comodín % antes del texto indica que puede haber cualquier cantidad de caracteres al inicio.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-47",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál es la principal ventaja de utilizar INNER JOIN en una base de datos relacional?",
+    "opciones": [
+      "Permite combinar información relacionada de varias tablas.",
+      "Ordena automáticamente los registros.",
+      "Elimina registros duplicados.",
+      "Actualiza varias tablas al mismo tiempo."
+    ],
+    "respuesta": "Permite combinar información relacionada de varias tablas.",
+    "explicacion": "INNER JOIN permite consultar información distribuida en diferentes tablas relacionadas.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-48",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Cuál consulta muestra el nombre del empleado y su salario utilizando alias para ambas columnas?",
+    "opciones": [
+      "SELECT nombre AS Empleado, salario AS Salario FROM empleados;",
+      "SELECT nombre TO Empleado, salario TO Salario FROM empleados;",
+      "SELECT Empleado(nombre), Salario(salario) FROM empleados;",
+      "SELECT nombre = Empleado FROM empleados;"
+    ],
+    "respuesta": "SELECT nombre AS Empleado, salario AS Salario FROM empleados;",
+    "explicacion": "AS asigna un nombre alternativo a las columnas del resultado.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-49",
+    "categoria": "SQL",
+    "tipo": "debug",
+    "dificultad": "Avanzado",
+    "pregunta": "¿Qué problema presenta la siguiente consulta?\n\nSELECT * empleados;",
+    "opciones": [
+      "Falta la palabra reservada FROM.",
+      "El asterisco está mal utilizado.",
+      "SELECT no admite el símbolo *.",
+      "No presenta errores."
+    ],
+    "respuesta": "Falta la palabra reservada FROM.",
+    "explicacion": "Toda consulta SELECT necesita indicar la tabla mediante FROM.",
+    "puntos": 30,
+    "timeLimit": 50
+  },
+  {
+    "id": "sql-50",
+    "categoria": "SQL",
+    "tipo": "multiple",
+    "dificultad": "Avanzado",
+    "pregunta": "Una empresa desea generar un informe con información de empleados, equipos y tickets relacionados. ¿Cuál concepto de SQL será el más importante para construir esa consulta?",
+    "opciones": [
+      "JOIN entre tablas.",
+      "DISTINCT.",
+      "ORDER BY.",
+      "LIKE."
+    ],
+    "respuesta": "JOIN entre tablas.",
+    "explicacion": "Las relaciones entre tablas son la base para generar consultas que integran información de diferentes entidades.",
+    "puntos": 30,
+    "timeLimit": 50
+  }
+]
