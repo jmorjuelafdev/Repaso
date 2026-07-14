@@ -9,7 +9,7 @@
     "respuesta": "System.out.println()",
     "explicacion": "System.out.println() imprime texto y luego realiza un salto de línea.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-2",
@@ -23,7 +23,7 @@
     "respuestasSlots": ["System.out.println"],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-3",
@@ -35,7 +35,7 @@
     "respuesta": "int",
     "explicacion": "Las edades se representan normalmente con el tipo entero int.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-4",
@@ -48,7 +48,7 @@
     "respuesta": "15",
     "explicacion": "Se realiza una suma entre dos variables enteras.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-5",
@@ -62,7 +62,7 @@
     "respuestasSlots": ["String"],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-6",
@@ -74,7 +74,7 @@
     "respuesta": "Scanner",
     "explicacion": "Scanner es la clase más utilizada para leer datos desde la entrada estándar.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-7",
@@ -88,7 +88,7 @@
     "respuestasSlots": ["Scanner"],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-8",
@@ -100,7 +100,7 @@
     "respuesta": "ArrayList",
     "explicacion": "ArrayList permite almacenar una colección dinámica de elementos.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-9",
@@ -113,7 +113,7 @@
     "respuesta": "Menor",
     "explicacion": "La condición no se cumple porque 17 es menor que 18.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "java-10",
@@ -130,7 +130,7 @@
     "respuesta": "Almacenar información para utilizarla durante la ejecución del programa.",
     "explicacion": "Las variables permiten guardar y manipular datos durante la ejecución.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
     {
       "id": "java-11",
@@ -144,7 +144,7 @@
       "respuestasSlots": [">="],
       "evaluacion": "slots",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-12",
@@ -157,7 +157,7 @@
       "respuesta": "Aplica bono",
       "explicacion": "La condición se cumple porque el salario es mayor a 2.500.000.",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-13",
@@ -169,7 +169,7 @@
       "respuesta": "if",
       "explicacion": "La sentencia if permite tomar decisiones en función de una condición.",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-14",
@@ -183,7 +183,7 @@
       "respuestasSlots": ["nextLine"],
       "evaluacion": "slots",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-15",
@@ -201,7 +201,7 @@
       "respuesta": "Falta el punto y coma (;) al final de la instrucción println.",
       "explicacion": "En Java las instrucciones terminan con punto y coma.",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-16",
@@ -214,7 +214,7 @@
       "respuesta": "1 2 3",
       "explicacion": "El ciclo comienza en 1 y finaliza en 3.",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-17",
@@ -228,7 +228,7 @@
       "respuestasSlots": ["hayTickets"],
       "evaluacion": "slots",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-18",
@@ -240,7 +240,7 @@
       "respuesta": "ArrayList",
       "explicacion": "ArrayList permite agregar y eliminar elementos dinámicamente.",
       "puntos": 15,
-      "timeLimit": 35
+      "timeLimit": 90 
     },
     {
       "id": "java-19",
@@ -253,7 +253,7 @@
       "respuesta": "2",
       "explicacion": "El método size() devuelve la cantidad de elementos de la colección.",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-20",
@@ -267,7 +267,7 @@
       "respuestasSlots": ["add"],
       "evaluacion": "slots",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-21",
@@ -280,7 +280,7 @@
       "respuesta": "7",
       "explicacion": "El operador += incrementa el valor de la variable.",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-22",
@@ -294,7 +294,7 @@
       "respuestasSlots": ["return"],
       "evaluacion": "slots",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-23",
@@ -307,7 +307,7 @@
       "respuesta": "10",
       "explicacion": "El método devuelve la suma de los parámetros.",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-24",
@@ -319,7 +319,7 @@
       "respuesta": "switch",
       "explicacion": "switch facilita la evaluación de múltiples casos sobre una misma expresión.",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-25",
@@ -333,7 +333,7 @@
       "respuestasSlots": ["break"],
       "evaluacion": "slots",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-26",
@@ -351,7 +351,7 @@
       "respuesta": "Falta el punto y coma (;) después de add().",
       "explicacion": "En Java todas las instrucciones deben finalizar con punto y coma.",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-27",
@@ -364,7 +364,7 @@
       "respuesta": "1",
       "explicacion": "Después de eliminar un elemento queda únicamente uno en la lista.",
       "puntos": 20,
-      "timeLimit": 40
+      "timeLimit": 90 
     },
     {
       "id": "java-28",
@@ -376,7 +376,7 @@
       "respuesta": "Clase",
       "explicacion": "Una clase define la estructura y el comportamiento de un objeto.",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-29",
@@ -389,7 +389,7 @@
       "respuesta": "2 3 4",
       "explicacion": "El ciclo inicia en 2 y termina en 4 inclusive.",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-30",
@@ -406,7 +406,7 @@
       "respuesta": "Recorrer la colección con un ciclo y evaluar una condición if.",
       "explicacion": "La combinación de un ciclo y una condición permite filtrar los elementos según un criterio.",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-31",
@@ -423,7 +423,7 @@
       "respuesta": "Una instancia de una clase",
       "explicacion": "Los objetos se crean a partir de una clase y poseen atributos y métodos.",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-32",
@@ -437,7 +437,7 @@
       "respuestasSlots": ["new"],
       "evaluacion": "slots",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-33",
@@ -450,7 +450,7 @@
       "respuesta": "3",
       "explicacion": "El método length() devuelve la cantidad de caracteres de una cadena.",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-34",
@@ -468,7 +468,7 @@
       "respuesta": "La cadena debe ir entre comillas.",
       "explicacion": "Los valores de tipo String deben escribirse entre comillas dobles.",
       "puntos": 25,
-      "timeLimit": 45
+      "timeLimit": 90 
     },
     {
       "id": "java-35",
@@ -481,7 +481,7 @@
       "respuesta": "1 2 4 5",
       "explicacion": "continue omite únicamente la iteración cuando i vale 3.",
       "puntos": 30,
-      "timeLimit": 50
+      "timeLimit": 90 
     },
     {
       "id": "java-36",
@@ -495,7 +495,7 @@
       "respuestasSlots": ["continue"],
       "evaluacion": "slots",
       "puntos": 30,
-      "timeLimit": 50
+      "timeLimit": 90 
     },
     {
       "id": "java-37",
@@ -507,7 +507,7 @@
       "respuesta": "private",
       "explicacion": "Los atributos privados solo pueden accederse mediante métodos públicos como getters y setters.",
       "puntos": 30,
-      "timeLimit": 50
+      "timeLimit": 90 
     },
     {
       "id": "java-38",
@@ -519,7 +519,7 @@
       "respuesta": "getNombre()",
       "explicacion": "Los métodos getter permiten consultar atributos privados.",
       "puntos": 30,
-      "timeLimit": 50
+      "timeLimit": 90 
     },
     {
       "id": "java-39",
@@ -537,7 +537,7 @@
       "respuesta": "IndexOutOfBoundsException",
       "explicacion": "La lista está vacía y no existe un elemento en la posición 0.",
       "puntos": 30,
-      "timeLimit": 50
+      "timeLimit": 90 
     },
     {
       "id": "java-40",
@@ -554,7 +554,7 @@
       "respuesta": "Crear una clase Empleado con atributos y métodos.",
       "explicacion": "Una clase permite encapsular datos y comportamientos, facilitando la reutilización y el mantenimiento del código.",
       "puntos": 30,
-      "timeLimit": 50
+      "timeLimit": 90 
     },
       {
         "id": "java-41",
@@ -567,7 +567,7 @@
         "respuesta": "JOHANNA",
         "explicacion": "El método toUpperCase() convierte todos los caracteres a mayúsculas.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-42",
@@ -581,7 +581,7 @@
         "respuestasSlots": ["toLowerCase"],
         "evaluacion": "slots",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-43",
@@ -594,7 +594,7 @@
         "respuesta": "20",
         "explicacion": "El índice 1 corresponde al segundo elemento de la lista.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-44",
@@ -611,7 +611,7 @@
         "respuesta": "Crear un método que realice el cálculo.",
         "explicacion": "Los métodos permiten reutilizar código y facilitar su mantenimiento.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-45",
@@ -629,7 +629,7 @@
         "respuesta": "IndexOutOfBoundsException",
         "explicacion": "Solo existe un elemento (índice 0). Intentar acceder al índice 2 genera una excepción.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-46",
@@ -643,7 +643,7 @@
         "respuestasSlots": ["Empleado"],
         "evaluacion": "slots",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-47",
@@ -660,7 +660,7 @@
         "respuesta": "Inicializar los atributos de un objeto cuando se crea.",
         "explicacion": "El constructor se ejecuta automáticamente al crear un objeto.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-48",
@@ -673,7 +673,7 @@
         "respuesta": "true",
         "explicacion": "El método contains() verifica si una cadena contiene una secuencia de caracteres.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-49",
@@ -685,7 +685,7 @@
         "respuesta": "isEmpty()",
         "explicacion": "isEmpty() devuelve true cuando la colección no contiene elementos.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       },
       {
         "id": "java-50",
@@ -702,6 +702,6 @@
         "respuesta": "Crear una clase Empleado con atributos, constructor y métodos.",
         "explicacion": "La Programación Orientada a Objetos favorece la organización, reutilización y mantenimiento del código mediante clases y objetos.",
         "puntos": 30,
-        "timeLimit": 50
+        "timeLimit": 90 
       }
 ]

@@ -14,7 +14,7 @@
     "respuesta": "Variable",
     "explicacion": "Una variable almacena información que puede utilizarse durante la ejecución del programa.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-2",
@@ -35,7 +35,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-3",
@@ -52,7 +52,7 @@
     "respuesta": "==",
     "explicacion": "El operador == compara dos valores.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-4",
@@ -69,7 +69,7 @@
     "respuesta": "Condicional",
     "explicacion": "Las estructuras condicionales permiten ejecutar acciones dependiendo de una condición.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-5",
@@ -90,7 +90,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-6",
@@ -107,7 +107,7 @@
     "respuesta": "Ciclo",
     "explicacion": "Los ciclos permiten repetir instrucciones mientras se cumpla una condición o un número determinado de veces.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-7",
@@ -124,7 +124,7 @@
     "respuesta": "Incrementa el contador",
     "explicacion": "Cada vez que se ejecuta la instrucción el contador aumenta en una unidad.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-8",
@@ -145,7 +145,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-9",
@@ -162,7 +162,7 @@
     "respuesta": "Lista",
     "explicacion": "Una lista permite almacenar varios elementos del mismo tipo.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-10",
@@ -179,7 +179,7 @@
     "respuesta": "Menor de edad",
     "explicacion": "Como 17 no cumple la condición edad >= 18, se ejecuta el bloque del Sino.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "logica-11",
@@ -200,7 +200,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-12",
@@ -217,7 +217,7 @@
     "respuesta": "15",
     "explicacion": "La variable contiene el valor 15, por lo tanto ese será el resultado mostrado.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-13",
@@ -234,7 +234,7 @@
     "respuesta": "Organizar la solución de un problema",
     "explicacion": "Un algoritmo describe paso a paso cómo resolver un problema antes de implementarlo en un lenguaje.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-14",
@@ -255,7 +255,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-15",
@@ -272,7 +272,7 @@
     "respuesta": "Ciclo",
     "explicacion": "Los ciclos permiten repetir instrucciones mientras una condición no se cumpla.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-16",
@@ -289,7 +289,7 @@
     "respuesta": "13",
     "explicacion": "El algoritmo suma los valores de x e y.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-17",
@@ -310,7 +310,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-18",
@@ -327,7 +327,7 @@
     "respuesta": "Leer datos → Validar → Guardar → Mostrar confirmación",
     "explicacion": "Primero se capturan los datos, luego se validan, se almacenan y finalmente se informa el resultado.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "logica-19",
@@ -344,7 +344,7 @@
     "respuesta": "1 2 3",
     "explicacion": "El ciclo se ejecuta mientras el contador sea menor o igual a 3.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-20",
@@ -365,7 +365,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-21",
@@ -382,7 +382,7 @@
     "respuesta": "7",
     "explicacion": "Primero x vale 4. Luego y toma el valor de x más 3.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-22",
@@ -399,7 +399,7 @@
     "respuesta": "Contar cuántas veces ocurre un evento",
     "explicacion": "Los contadores normalmente aumentan de uno en uno.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-23",
@@ -420,7 +420,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-24",
@@ -437,7 +437,7 @@
     "respuesta": "Ir sumando valores durante un proceso",
     "explicacion": "Un acumulador conserva una suma parcial durante la ejecución.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-25",
@@ -454,7 +454,7 @@
     "respuesta": "6",
     "explicacion": "0+1=1, luego 1+2=3 y finalmente 3+3=6.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-26",
@@ -471,7 +471,7 @@
     "respuesta": "contador",
     "explicacion": "Para contabilizar elementos se utiliza un contador.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-27",
@@ -488,7 +488,7 @@
     "respuesta": "5",
     "explicacion": "A la variable x se le resta 3.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "logica-28",
@@ -509,7 +509,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-29",
@@ -526,7 +526,7 @@
     "respuesta": "5",
     "explicacion": "El ciclo inicia en 1 y termina en 5, ejecutándose cinco veces.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-30",
@@ -543,7 +543,7 @@
     "respuesta": "Mostrará 'Mayor'",
     "explicacion": "La condición utiliza >=, por lo tanto el valor 18 cumple la condición.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-31",
@@ -560,7 +560,7 @@
     "respuesta": "x=10, y=5",
     "explicacion": "La variable temporal permite intercambiar correctamente los valores.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-32",
@@ -577,7 +577,7 @@
     "respuesta": "Falta leer la variable edad antes de evaluarla.",
     "explicacion": "Antes de utilizar una variable debe asignársele un valor.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-33",
@@ -598,7 +598,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-34",
@@ -615,7 +615,7 @@
     "respuesta": "Leer datos → Validar → Guardar → Confirmar",
     "explicacion": "Primero se capturan los datos, luego se validan, se almacenan y finalmente se informa el resultado.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "logica-35",
@@ -632,7 +632,7 @@
     "respuesta": "3",
     "explicacion": "El contador aumenta una vez por cada elemento de la lista.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-36",
@@ -649,7 +649,7 @@
     "respuesta": "Nunca incrementa el contador.",
     "explicacion": "Al no incrementar el contador, el ciclo nunca termina.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-37",
@@ -670,7 +670,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-38",
@@ -687,7 +687,7 @@
     "respuesta": "Un ciclo",
     "explicacion": "Los ciclos permiten recorrer colecciones de datos de manera eficiente.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-39",
@@ -704,7 +704,7 @@
     "respuesta": "Par",
     "explicacion": "El residuo de dividir 8 entre 2 es 0, por lo tanto el número es par.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-40",
@@ -721,7 +721,7 @@
     "respuesta": "Condicional",
     "explicacion": "La validación implica tomar una decisión dependiendo de si el serial ya existe o no.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-41",
@@ -738,7 +738,7 @@
     "respuesta": "Condicionales",
     "explicacion": "Comparar tres valores requiere realizar decisiones mediante condiciones.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-42",
@@ -755,7 +755,7 @@
     "respuesta": "Ciclo",
     "explicacion": "Un ciclo permite recorrer todos los elementos para calcular el promedio.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-43",
@@ -776,7 +776,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-44",
@@ -793,7 +793,7 @@
     "respuesta": "Buscar el número de serie existente",
     "explicacion": "Antes de insertar un nuevo registro es necesario verificar que no exista previamente.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-45",
@@ -810,7 +810,7 @@
     "respuesta": "8",
     "explicacion": "El ciclo se ejecuta cuatro veces y en cada iteración suma 2.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-46",
@@ -827,7 +827,7 @@
     "respuesta": "Condicional",
     "explicacion": "La longitud de la contraseña se compara mediante una condición antes de continuar.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-47",
@@ -844,7 +844,7 @@
     "respuesta": "Debe acumular usando suma = suma + i",
     "explicacion": "La instrucción reemplaza el valor de suma en cada iteración en lugar de acumularlo.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-48",
@@ -865,7 +865,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-49",
@@ -882,7 +882,7 @@
     "respuesta": "Recorrer toda la lista comparando cada salario con el mayor encontrado",
     "explicacion": "El algoritmo debe comparar cada elemento para identificar el valor máximo.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "logica-50",
@@ -899,6 +899,6 @@
     "respuesta": "Analizar el problema y diseñar el algoritmo",
     "explicacion": "El análisis del problema y el diseño del algoritmo permiten construir una solución correcta antes de programar.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   }
 ]

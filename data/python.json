@@ -14,7 +14,7 @@
     "respuesta": "Johanna",
     "explicacion": "print() muestra el contenido almacenado en la variable.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-2",
@@ -35,7 +35,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-3",
@@ -52,7 +52,7 @@
     "respuesta": "int",
     "explicacion": "Las edades se representan mediante números enteros.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-4",
@@ -69,7 +69,7 @@
     "respuesta": "<class 'int'>",
     "explicacion": "La función type() devuelve el tipo de dato de una variable.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-5",
@@ -90,7 +90,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-6",
@@ -107,7 +107,7 @@
     "respuesta": "10",
     "explicacion": "El operador + realiza una suma entre números enteros.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-7",
@@ -124,7 +124,7 @@
     "respuesta": "list",
     "explicacion": "Una lista permite almacenar múltiples elementos.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-8",
@@ -148,7 +148,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-9",
@@ -165,7 +165,7 @@
     "respuesta": "3",
     "explicacion": "La función len() devuelve la cantidad de elementos de una lista.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-10",
@@ -182,7 +182,7 @@
     "respuesta": "Menor de edad",
     "explicacion": "Como la condición edad >= 18 no se cumple, se ejecuta el bloque else.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "python-11",
@@ -203,7 +203,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-12",
@@ -222,7 +222,7 @@
     "explicacion": "Se resta el valor de y al valor de x."
   ,
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-13",
@@ -239,7 +239,7 @@
     "respuesta": "list",
     "explicacion": "Las listas almacenan múltiples elementos ordenados.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-14",
@@ -260,7 +260,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-15",
@@ -278,7 +278,7 @@
     "respuesta": "3",
     "explicacion": "append() agrega un nuevo elemento y len() devuelve la cantidad de elementos.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-16",
@@ -295,7 +295,7 @@
     "respuesta": "dict",
     "explicacion": "Un diccionario almacena información mediante pares clave-valor.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-17",
@@ -316,7 +316,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-18",
@@ -334,7 +334,7 @@
     "respuesta": "Adulto",
     "explicacion": "La condición edad > 18 se cumple.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "python-19",
@@ -352,7 +352,7 @@
     "respuesta": "0 1 2",
     "explicacion": "range(3) genera los valores 0, 1 y 2.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-20",
@@ -373,7 +373,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-21",
@@ -391,7 +391,7 @@
     "respuesta": "8",
     "explicacion": "El operador += incrementa el valor actual de la variable.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-22",
@@ -409,7 +409,7 @@
     "respuesta": "Falta el signo : después de range(5)",
     "explicacion": "En Python toda estructura de control debe terminar con dos puntos (:).",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-23",
@@ -430,7 +430,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-24",
@@ -448,7 +448,7 @@
     "respuesta": "2",
     "explicacion": "Después de eliminar un elemento quedan dos registros.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-25",
@@ -465,7 +465,7 @@
     "respuesta": "dict",
     "explicacion": "Los diccionarios almacenan información mediante claves y valores.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-26",
@@ -483,7 +483,7 @@
     "respuesta": "Analista",
     "explicacion": "La clave 'cargo' devuelve el valor asociado dentro del diccionario.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-27",
@@ -501,7 +501,7 @@
     "respuesta": "IndexError",
     "explicacion": "La lista solo tiene un elemento en la posición 0; acceder a la posición 1 genera un IndexError.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "python-28",
@@ -522,7 +522,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-29",
@@ -540,7 +540,7 @@
     "respuesta": "2 3 4",
     "explicacion": "range(2,5) genera los valores 2, 3 y 4.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-30",
@@ -557,7 +557,7 @@
     "respuesta": "Un ciclo combinado con una condición",
     "explicacion": "Es necesario recorrer la lista y evaluar una condición para cada elemento.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-31",
@@ -575,7 +575,7 @@
     "respuesta": "Hola",
     "explicacion": "La función devuelve la cadena 'Hola' mediante return.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-32",
@@ -596,7 +596,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-33",
@@ -614,7 +614,7 @@
     "respuesta": "Faltan los dos puntos (:) al final de la definición de la función.",
     "explicacion": "Toda definición de función en Python termina con dos puntos (:).",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-34",
@@ -631,7 +631,7 @@
     "respuesta": "Funciones",
     "explicacion": "Las funciones permiten reutilizar código y evitar duplicación.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "python-35",
@@ -649,7 +649,7 @@
     "respuesta": "0 1 2",
     "explicacion": "break finaliza el ciclo cuando i vale 3.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-36",
@@ -667,7 +667,7 @@
     "respuesta": "0 1 3 4",
     "explicacion": "continue omite únicamente la iteración donde i es igual a 2.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-37",
@@ -688,7 +688,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-38",
@@ -705,7 +705,7 @@
     "respuesta": "empleado['salario']",
     "explicacion": "En Python los valores de un diccionario se obtienen mediante su clave.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-39",
@@ -723,7 +723,7 @@
     "respuesta": "IndexError",
     "explicacion": "La lista tiene índices 0, 1 y 2. Intentar acceder al índice 3 produce un IndexError.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-40",
@@ -740,7 +740,7 @@
     "respuesta": "Recorrer la lista con un for y evaluar una condición if",
     "explicacion": "La combinación de un ciclo y una condición permite filtrar los elementos que cumplen el criterio.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-41",
@@ -758,7 +758,7 @@
     "respuesta": "12",
     "explicacion": "La función sum() retorna la suma de todos los elementos de la lista.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-42",
@@ -779,7 +779,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-43",
@@ -797,7 +797,7 @@
     "respuesta": "1800000",
     "explicacion": "sort() ordena la lista ascendentemente y el índice 0 contiene el menor valor.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-44",
@@ -814,7 +814,7 @@
     "respuesta": "Recorrer toda la lista comparando cada salario con el mayor encontrado.",
     "explicacion": "Para encontrar el máximo es necesario comparar todos los elementos.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-45",
@@ -832,7 +832,7 @@
     "respuesta": "Faltan los paréntesis al llamar el método upper().",
     "explicacion": "upper es un método y debe invocarse como upper().",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-46",
@@ -853,7 +853,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-47",
@@ -871,7 +871,7 @@
     "respuesta": "python",
     "explicacion": "lower() convierte todos los caracteres a minúsculas.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-48",
@@ -888,7 +888,7 @@
     "respuesta": "\"PC005\" in equipos",
     "explicacion": "El operador in verifica si un elemento pertenece a una colección.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-49",
@@ -906,7 +906,7 @@
     "respuesta": "True",
     "explicacion": "El operador in devuelve True cuando el elemento pertenece a la lista.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "python-50",
@@ -923,6 +923,6 @@
     "respuesta": "Permite reutilizar el código y facilitar su mantenimiento.",
     "explicacion": "Las funciones ayudan a evitar duplicación de código, mejoran la organización y facilitan el mantenimiento.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   }
 ]

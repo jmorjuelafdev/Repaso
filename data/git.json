@@ -14,7 +14,7 @@
     "respuesta": "Un sistema de control de versiones.",
     "explicacion": "Git permite registrar los cambios realizados sobre los archivos de un proyecto.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-2",
@@ -31,7 +31,7 @@
     "respuesta": "Controlar y registrar los cambios de un proyecto.",
     "explicacion": "Git registra el historial de cambios y facilita el trabajo colaborativo.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-3",
@@ -48,7 +48,7 @@
     "respuesta": "git init",
     "explicacion": "git init crea un nuevo repositorio Git en la carpeta actual.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-4",
@@ -69,7 +69,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-5",
@@ -86,7 +86,7 @@
     "respuesta": "git status",
     "explicacion": "git status informa qué archivos fueron modificados, agregados o están pendientes de commit.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-6",
@@ -103,7 +103,7 @@
     "respuesta": "No existen cambios pendientes por guardar.",
     "explicacion": "Todos los cambios ya fueron confirmados o no hay modificaciones.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-7",
@@ -120,7 +120,7 @@
     "respuesta": "git add .",
     "explicacion": "git add . agrega todos los archivos modificados del directorio actual al área de staging.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-8",
@@ -141,7 +141,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-9",
@@ -158,7 +158,7 @@
     "respuesta": "Un punto de control con los cambios realizados.",
     "explicacion": "Cada commit registra un conjunto de cambios en el historial del proyecto.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-10",
@@ -175,7 +175,7 @@
     "respuesta": "git status",
     "explicacion": "El flujo recomendado es revisar el estado del repositorio antes de agregar o confirmar cambios.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90
   },
   {
     "id": "git-11",
@@ -192,7 +192,7 @@
     "respuesta": "git push",
     "explicacion": "git push publica los commits locales en el repositorio remoto.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "git-12",
@@ -209,7 +209,7 @@
     "respuesta": "git pull",
     "explicacion": "git pull descarga los cambios del repositorio remoto y los fusiona con la rama actual.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90   
   },
   {
     "id": "git-13",
@@ -226,7 +226,7 @@
     "respuesta": "git fetch solo descarga cambios; git pull descarga y fusiona los cambios.",
     "explicacion": "git fetch actualiza la información remota sin modificar la rama local; git pull además realiza la fusión.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90
   },
   {
     "id": "git-14",
@@ -243,7 +243,7 @@
     "respuesta": "Para indicar qué archivos o carpetas no deben ser versionados.",
     "explicacion": "El archivo .gitignore evita que Git rastree archivos innecesarios como temporales o configuraciones locales.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90
   },
   {
     "id": "git-15",
@@ -264,7 +264,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90
   },
   {
     "id": "git-16",
@@ -281,7 +281,7 @@
     "respuesta": "Los archivos ya fueron agregados al área de staging y están listos para el commit.",
     "explicacion": "El área de staging contiene los cambios preparados para formar parte del siguiente commit.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90
   },
   {
     "id": "git-17",
@@ -298,7 +298,7 @@
     "respuesta": "git push",
     "explicacion": "git push publica los commits realizados localmente en el repositorio remoto.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90
   },
   {
     "id": "git-18",
@@ -315,7 +315,7 @@
     "respuesta": "git pull",
     "explicacion": "Antes de continuar trabajando es recomendable actualizar tu copia local con git pull.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90
   },
   {
     "id": "git-19",
@@ -332,7 +332,7 @@
     "respuesta": "El historial de commits con autor, fecha e identificador.",
     "explicacion": "git log muestra el historial completo de cambios registrados mediante commits.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-20",
@@ -349,7 +349,7 @@
     "respuesta": "git push",
     "explicacion": "Después de crear un commit, el siguiente paso habitual es enviarlo al repositorio remoto con git push.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-21",
@@ -366,7 +366,7 @@
     "respuesta": "Una línea independiente de desarrollo dentro del mismo repositorio.",
     "explicacion": "Las ramas permiten desarrollar funcionalidades sin afectar la rama principal.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-22",
@@ -383,7 +383,7 @@
     "respuesta": "git branch desarrollo",
     "explicacion": "git branch crea una nueva rama, pero no cambia a ella.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-23",
@@ -404,7 +404,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-24",
@@ -421,7 +421,7 @@
     "respuesta": "git checkout",
     "explicacion": "Antes de git switch, git checkout era el comando habitual para cambiar de rama.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-25",
@@ -438,7 +438,7 @@
     "respuesta": "git branch",
     "explicacion": "git branch lista las ramas existentes y marca con un asterisco la rama actual.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-26",
@@ -455,7 +455,7 @@
     "respuesta": "git merge",
     "explicacion": "git merge combina los cambios de una rama con la rama en la que te encuentras.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90    
   },
   {
     "id": "git-27",
@@ -472,7 +472,7 @@
     "respuesta": "git merge login",
     "explicacion": "Primero debes ubicarte en la rama de destino y luego ejecutar git merge con el nombre de la rama origen.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit":90    
   },
   {
     "id": "git-28",
@@ -489,7 +489,7 @@
     "respuesta": "Existen cambios incompatibles que deben resolverse manualmente.",
     "explicacion": "Los conflictos aparecen cuando dos cambios afectan la misma parte de un archivo y Git no puede decidir cuál conservar.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-29",
@@ -506,7 +506,7 @@
     "respuesta": "Desarrollar nuevas funcionalidades en ramas independientes antes de fusionarlas.",
     "explicacion": "Trabajar con ramas reduce conflictos y facilita la colaboración entre desarrolladores.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-30",
@@ -523,7 +523,7 @@
     "respuesta": "Crear una nueva rama para la corrección, realizar los cambios y luego fusionarla con la rama principal.",
     "explicacion": "Trabajar en ramas independientes permite desarrollar y corregir errores sin interferir con el trabajo de otros integrantes del equipo.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-31",
@@ -540,7 +540,7 @@
     "respuesta": "git diff",
     "explicacion": "git diff permite visualizar los cambios realizados antes de crear un commit.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-32",
@@ -557,7 +557,7 @@
     "respuesta": "Las líneas agregadas, modificadas o eliminadas en los archivos.",
     "explicacion": "git diff compara versiones y resalta los cambios realizados.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-33",
@@ -574,7 +574,7 @@
     "respuesta": "git restore",
     "explicacion": "git restore revierte los cambios no confirmados de un archivo.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-34",
@@ -595,7 +595,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "git-35",
@@ -612,7 +612,7 @@
     "respuesta": "git branch -d feature-login",
     "explicacion": "La opción -d elimina una rama local que ya fue integrada mediante merge.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-36",
@@ -629,7 +629,7 @@
     "respuesta": "git reset --soft HEAD~1",
     "explicacion": "reset --soft elimina el último commit pero conserva los archivos preparados para un nuevo commit.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-37",
@@ -646,7 +646,7 @@
     "respuesta": "El comando está mal escrito; debe ser 'git push origin main'.",
     "explicacion": "Git no reconocerá 'pus' como un comando válido.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-38",
@@ -663,7 +663,7 @@
     "respuesta": "git diff",
     "explicacion": "git diff muestra las diferencias entre los archivos modificados y la última versión registrada.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-39",
@@ -680,7 +680,7 @@
     "respuesta": "git restore nombreArchivo",
     "explicacion": "git restore devuelve el archivo a su estado del último commit.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-40",
@@ -697,7 +697,7 @@
     "respuesta": "Eliminar la rama local si ya no será utilizada.",
     "explicacion": "Eliminar ramas que ya fueron integradas ayuda a mantener el repositorio organizado.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-41",
@@ -714,7 +714,7 @@
     "respuesta": "git status",
     "explicacion": "Es una buena práctica revisar el estado del repositorio antes de comenzar a realizar cambios.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-42",
@@ -731,7 +731,7 @@
     "respuesta": "git status → git add → git commit → git push",
     "explicacion": "Este es el flujo básico recomendado para registrar y compartir cambios.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-43",
@@ -748,7 +748,7 @@
     "respuesta": "Git no pudo combinar automáticamente los cambios y requiere intervención del desarrollador.",
     "explicacion": "Cuando dos cambios afectan la misma parte de un archivo, Git solicita que el desarrollador resuelva el conflicto.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-44",
@@ -765,7 +765,7 @@
     "respuesta": "La palabra commit está mal escrita.",
     "explicacion": "El comando correcto es git commit.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-45",
@@ -782,7 +782,7 @@
     "respuesta": "Actualizar la rama local con git pull.",
     "explicacion": "Trabajar sobre una copia actualizada reduce la probabilidad de conflictos posteriores.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-46",
@@ -799,7 +799,7 @@
     "respuesta": "Revisar el conflicto, decidir qué cambios conservar, probar el código y luego realizar el commit de la fusión.",
     "explicacion": "Los conflictos deben resolverse manualmente para garantizar que el resultado sea correcto.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-47",
@@ -816,7 +816,7 @@
     "respuesta": "Porque facilitan el seguimiento de cambios, la revisión de código y la recuperación ante errores.",
     "explicacion": "Los commits pequeños hacen que el historial sea más claro y sencillo de mantener.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-48",
@@ -833,7 +833,7 @@
     "respuesta": "La rama local está sincronizada con la rama remota.",
     "explicacion": "Git indica que no existen commits pendientes entre la rama local y el repositorio remoto.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-49",
@@ -850,7 +850,7 @@
     "respuesta": "Escribir mensajes de commit descriptivos y significativos.",
     "explicacion": "Los mensajes claros facilitan comprender qué cambios se realizaron y por qué.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "git-50",
@@ -867,7 +867,7 @@
     "respuesta": "Crear ramas para nuevas funcionalidades, realizar commits frecuentes, actualizar con git pull y fusionar los cambios cuando estén listos.",
     "explicacion": "Este flujo favorece la colaboración, reduce conflictos y facilita el mantenimiento del proyecto.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   }
 ]
 

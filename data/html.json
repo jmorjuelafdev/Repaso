@@ -14,7 +14,7 @@
     "respuesta": "<p>",
     "explicacion": "La etiqueta <p> se utiliza para representar párrafos de texto dentro del contenido de una página.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-2",
@@ -42,7 +42,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-3",
@@ -59,7 +59,7 @@
     "respuesta": "<img>",
     "explicacion": "La etiqueta <img> permite insertar imágenes dentro del documento HTML.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-4",
@@ -80,7 +80,7 @@
     ],
     "explicacion": "Las etiquetas <h1> hasta <h6> representan niveles de encabezado dentro del contenido de la página.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-5",
@@ -101,7 +101,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-6",
@@ -118,7 +118,7 @@
     "respuesta": "<br>",
     "explicacion": "La etiqueta <br> inserta un salto de línea dentro del mismo bloque de contenido.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-7",
@@ -135,7 +135,7 @@
     "respuesta": "alt",
     "explicacion": "El atributo alt proporciona una descripción textual de la imagen y mejora la accesibilidad.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-8",
@@ -156,7 +156,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-9",
@@ -173,7 +173,7 @@
     "respuesta": "<ul>",
     "explicacion": "La etiqueta <ul> crea listas no ordenadas con viñetas.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-10",
@@ -194,7 +194,7 @@
     ],
     "explicacion": "Las etiquetas semánticas describen el propósito del contenido y mejoran la accesibilidad y el SEO. La etiqueta <font> está obsoleta en HTML5.",
     "puntos": 10,
-    "timeLimit": 30
+    "timeLimit": 90 
   },
   {
     "id": "html-11",
@@ -216,7 +216,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-12",
@@ -233,7 +233,7 @@
     "respuesta": "<main>",
     "explicacion": "La etiqueta <main> representa el contenido principal del documento.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-13",
@@ -250,7 +250,7 @@
     "respuesta": "<tr>",
     "explicacion": "Cada fila de una tabla HTML se define mediante la etiqueta <tr>.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-14",
@@ -274,7 +274,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-15",
@@ -295,7 +295,7 @@
     ],
     "explicacion": "href indica el destino, target define dónde abrir el enlace y rel establece la relación entre documentos.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-16",
@@ -312,7 +312,7 @@
     "respuesta": "<form>",
     "explicacion": "La etiqueta <form> agrupa todos los controles de entrada de datos.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-17",
@@ -333,7 +333,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-18",
@@ -354,7 +354,7 @@
     ],
     "explicacion": "Los elementos inline ocupan únicamente el espacio necesario dentro de la línea. <div> es un elemento de bloque.",
     "puntos": 15,
-    "timeLimit": 35
+    "timeLimit": 90 
   },
   {
     "id": "html-19",
@@ -371,7 +371,7 @@
     "respuesta": "loading",
     "explicacion": "El atributo loading='lazy' permite diferir la carga de imágenes hasta que sean necesarias.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-20",
@@ -392,7 +392,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-21",
@@ -409,7 +409,7 @@
     "respuesta": "<audio>",
     "explicacion": "La etiqueta <audio> permite reproducir contenido de audio utilizando los controles del navegador.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-22",
@@ -430,7 +430,7 @@
     ],
     "explicacion": "required hace obligatorio el campo, placeholder muestra una guía y disabled deshabilita el control.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-23",
@@ -451,7 +451,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-24",
@@ -468,7 +468,7 @@
     "respuesta": "for",
     "explicacion": "El atributo for relaciona un label con un input mediante el id.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-25",
@@ -489,7 +489,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-26",
@@ -506,7 +506,7 @@
     "respuesta": "<nav>",
     "explicacion": "La etiqueta <nav> representa un bloque de navegación principal.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-27",
@@ -527,7 +527,7 @@
     ],
     "explicacion": "HTML5 incorpora soporte multimedia mediante las etiquetas video, audio y track.",
     "puntos": 20,
-    "timeLimit": 40
+    "timeLimit": 90 
   },
   {
     "id": "html-28",
@@ -548,7 +548,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-29",
@@ -565,7 +565,7 @@
     "respuesta": "target='_blank'",
     "explicacion": "El valor _blank abre el enlace en una nueva pestaña del navegador.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-30",
@@ -586,7 +586,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-31",
@@ -603,7 +603,7 @@
     "respuesta": "<optgroup>",
     "explicacion": "La etiqueta <optgroup> permite agrupar opciones relacionadas dentro de un elemento <select>.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-32",
@@ -624,7 +624,7 @@
     ],
     "explicacion": "Los atributos globales pueden utilizarse en prácticamente cualquier elemento HTML.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-33",
@@ -645,7 +645,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-34",
@@ -662,7 +662,7 @@
     "respuesta": "<article>",
     "explicacion": "La etiqueta <article> representa contenido independiente que puede distribuirse o reutilizarse.",
     "puntos": 25,
-    "timeLimit": 45
+    "timeLimit": 90 
   },
   {
     "id": "html-35",
@@ -679,7 +679,7 @@
     "respuesta": "aria-live",
     "explicacion": "aria-live informa a las tecnologías asistivas sobre cambios dinámicos en el contenido.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-36",
@@ -700,7 +700,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-37",
@@ -717,7 +717,7 @@
     "respuesta": "placeholder",
     "explicacion": "placeholder muestra un texto guía temporal dentro del campo.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-38",
@@ -738,7 +738,7 @@
     ],
     "explicacion": "Estos atributos mejoran la interacción y permiten que los lectores de pantalla interpreten correctamente el formulario.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-39",
@@ -759,7 +759,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-40",
@@ -776,7 +776,7 @@
     "respuesta": "<dialog>",
     "explicacion": "La etiqueta <dialog> permite crear cuadros de diálogo nativos en HTML5.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-41",
@@ -797,7 +797,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-42",
@@ -814,7 +814,7 @@
     "respuesta": "El segundo campo",
     "explicacion": "El atributo tabindex define el orden de navegación mediante teclado.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-43",
@@ -835,7 +835,7 @@
     ],
     "explicacion": "Estas etiquetas forman parte de HTML5 y aportan significado semántico al contenido.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-44",
@@ -856,7 +856,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-45",
@@ -873,7 +873,7 @@
     "respuesta": "<datalist>",
     "explicacion": "La etiqueta <datalist> proporciona una lista de sugerencias para un input.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-46",
@@ -897,7 +897,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-47",
@@ -914,7 +914,7 @@
     "respuesta": "sandbox",
     "explicacion": "sandbox limita las capacidades del contenido cargado dentro del iframe.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-48",
@@ -935,7 +935,7 @@
     ],
     "explicacion": "Los atributos charset, name y content son los más utilizados en las etiquetas meta.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-49",
@@ -956,7 +956,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   },
   {
     "id": "html-50",
@@ -973,6 +973,6 @@
     "respuesta": "rel",
     "explicacion": "El atributo rel especifica el tipo de relación entre el documento actual y el recurso externo.",
     "puntos": 30,
-    "timeLimit": 50
+    "timeLimit": 90 
   }
 ]
