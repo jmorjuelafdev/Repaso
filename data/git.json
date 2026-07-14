@@ -3,7 +3,7 @@
     "id": "git-1",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué es Git?",
     "opciones": [
       "Un sistema de control de versiones.",
@@ -20,7 +20,7 @@
     "id": "git-2",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Cuál es la principal función de Git?",
     "opciones": [
       "Controlar y registrar los cambios de un proyecto.",
@@ -37,7 +37,7 @@
     "id": "git-3",
     "categoria": "Git",
     "tipo": "comando",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué comando inicializa un nuevo repositorio Git en el directorio actual?",
     "opciones": [
       "git init",
@@ -54,7 +54,7 @@
     "id": "git-4",
     "categoria": "Git",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el comando para clonar un repositorio remoto.",
     "modo": "slots",
     "plantilla": "{{slot0}} https://github.com/empresa/proyecto.git",
@@ -75,7 +75,7 @@
     "id": "git-5",
     "categoria": "Git",
     "tipo": "comando",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué comando muestra el estado actual de los archivos del repositorio?",
     "opciones": [
       "git status",
@@ -92,7 +92,7 @@
     "id": "git-6",
     "categoria": "Git",
     "tipo": "analizar-salida",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Después de ejecutar 'git status' aparece el mensaje 'nothing to commit, working tree clean'. ¿Qué significa?",
     "opciones": [
       "No existen cambios pendientes por guardar.",
@@ -109,7 +109,7 @@
     "id": "git-7",
     "categoria": "Git",
     "tipo": "comando",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué comando agrega todos los archivos modificados al área de preparación (staging)?",
     "opciones": [
       "git add .",
@@ -126,7 +126,7 @@
     "id": "git-8",
     "categoria": "Git",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el comando para registrar un commit con el mensaje 'Primer commit'.",
     "modo": "slots",
     "plantilla": "git commit {{slot0}} \"Primer commit\"",
@@ -147,7 +147,7 @@
     "id": "git-9",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué representa un commit en Git?",
     "opciones": [
       "Un punto de control con los cambios realizados.",
@@ -164,7 +164,7 @@
     "id": "git-10",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Acabas de modificar tres archivos y quieres verificar cuáles fueron cambiados antes de agregarlos al repositorio. ¿Qué comando utilizarías primero?",
     "opciones": [
       "git status",
@@ -181,7 +181,7 @@
     "id": "git-11",
     "categoria": "Git",
     "tipo": "comando",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué comando envía los commits locales al repositorio remoto?",
     "opciones": [
       "git push",
@@ -192,13 +192,13 @@
     "respuesta": "git push",
     "explicacion": "git push publica los commits locales en el repositorio remoto.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-12",
     "categoria": "Git",
     "tipo": "comando",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué comando descarga e integra los cambios del repositorio remoto en tu rama actual?",
     "opciones": [
       "git pull",
@@ -209,13 +209,13 @@
     "respuesta": "git pull",
     "explicacion": "git pull descarga los cambios del repositorio remoto y los fusiona con la rama actual.",
     "puntos": 15,
-    "timeLimit": 90   
+    "timeLimit": 90
   },
   {
     "id": "git-13",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Cuál es la principal diferencia entre git fetch y git pull?",
     "opciones": [
       "git fetch solo descarga cambios; git pull descarga y fusiona los cambios.",
@@ -232,7 +232,7 @@
     "id": "git-14",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Para qué sirve el archivo .gitignore?",
     "opciones": [
       "Para indicar qué archivos o carpetas no deben ser versionados.",
@@ -249,7 +249,7 @@
     "id": "git-15",
     "categoria": "Git",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el comando para visualizar el historial de commits.",
     "modo": "slots",
     "plantilla": "git {{slot0}}",
@@ -270,7 +270,7 @@
     "id": "git-16",
     "categoria": "Git",
     "tipo": "analizar-salida",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Después de ejecutar 'git status' aparece el mensaje 'Changes to be committed'. ¿Qué significa?",
     "opciones": [
       "Los archivos ya fueron agregados al área de staging y están listos para el commit.",
@@ -287,7 +287,7 @@
     "id": "git-17",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Acabas de realizar un commit local y deseas compartirlo con tu equipo en GitHub. ¿Qué comando debes ejecutar?",
     "opciones": [
       "git push",
@@ -304,7 +304,7 @@
     "id": "git-18",
     "categoria": "Git",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Un compañero realizó cambios en GitHub y deseas traerlos a tu equipo antes de continuar desarrollando. ¿Qué comando es el más adecuado?",
     "opciones": [
       "git pull",
@@ -332,7 +332,7 @@
     "respuesta": "El historial de commits con autor, fecha e identificador.",
     "explicacion": "git log muestra el historial completo de cambios registrados mediante commits.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-20",
@@ -349,7 +349,7 @@
     "respuesta": "git push",
     "explicacion": "Después de crear un commit, el siguiente paso habitual es enviarlo al repositorio remoto con git push.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-21",
@@ -366,7 +366,7 @@
     "respuesta": "Una línea independiente de desarrollo dentro del mismo repositorio.",
     "explicacion": "Las ramas permiten desarrollar funcionalidades sin afectar la rama principal.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-22",
@@ -383,7 +383,7 @@
     "respuesta": "git branch desarrollo",
     "explicacion": "git branch crea una nueva rama, pero no cambia a ella.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-23",
@@ -404,7 +404,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-24",
@@ -421,7 +421,7 @@
     "respuesta": "git checkout",
     "explicacion": "Antes de git switch, git checkout era el comando habitual para cambiar de rama.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-25",
@@ -438,7 +438,7 @@
     "respuesta": "git branch",
     "explicacion": "git branch lista las ramas existentes y marca con un asterisco la rama actual.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-26",
@@ -455,7 +455,7 @@
     "respuesta": "git merge",
     "explicacion": "git merge combina los cambios de una rama con la rama en la que te encuentras.",
     "puntos": 20,
-    "timeLimit": 90    
+    "timeLimit": 90
   },
   {
     "id": "git-27",
@@ -472,7 +472,7 @@
     "respuesta": "git merge login",
     "explicacion": "Primero debes ubicarte en la rama de destino y luego ejecutar git merge con el nombre de la rama origen.",
     "puntos": 20,
-    "timeLimit":90    
+    "timeLimit": 90
   },
   {
     "id": "git-28",
@@ -489,7 +489,7 @@
     "respuesta": "Existen cambios incompatibles que deben resolverse manualmente.",
     "explicacion": "Los conflictos aparecen cuando dos cambios afectan la misma parte de un archivo y Git no puede decidir cuál conservar.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-29",
@@ -506,7 +506,7 @@
     "respuesta": "Desarrollar nuevas funcionalidades en ramas independientes antes de fusionarlas.",
     "explicacion": "Trabajar con ramas reduce conflictos y facilita la colaboración entre desarrolladores.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-30",
@@ -523,7 +523,7 @@
     "respuesta": "Crear una nueva rama para la corrección, realizar los cambios y luego fusionarla con la rama principal.",
     "explicacion": "Trabajar en ramas independientes permite desarrollar y corregir errores sin interferir con el trabajo de otros integrantes del equipo.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-31",
@@ -540,7 +540,7 @@
     "respuesta": "git diff",
     "explicacion": "git diff permite visualizar los cambios realizados antes de crear un commit.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-32",
@@ -557,7 +557,7 @@
     "respuesta": "Las líneas agregadas, modificadas o eliminadas en los archivos.",
     "explicacion": "git diff compara versiones y resalta los cambios realizados.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-33",
@@ -574,7 +574,7 @@
     "respuesta": "git restore",
     "explicacion": "git restore revierte los cambios no confirmados de un archivo.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-34",
@@ -595,7 +595,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-35",
@@ -612,7 +612,7 @@
     "respuesta": "git branch -d feature-login",
     "explicacion": "La opción -d elimina una rama local que ya fue integrada mediante merge.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-36",
@@ -629,14 +629,14 @@
     "respuesta": "git reset --soft HEAD~1",
     "explicacion": "reset --soft elimina el último commit pero conserva los archivos preparados para un nuevo commit.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-37",
     "categoria": "Git",
     "tipo": "debug",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué problema presenta el siguiente comando?\n\n git pus origin main",
+    "pregunta": "Analiza el siguiente comando:\n\ngit pus origin main",
     "opciones": [
       "El comando está mal escrito; debe ser 'git push origin main'.",
       "Falta crear una rama.",
@@ -646,7 +646,7 @@
     "respuesta": "El comando está mal escrito; debe ser 'git push origin main'.",
     "explicacion": "Git no reconocerá 'pus' como un comando válido.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-38",
@@ -663,7 +663,7 @@
     "respuesta": "git diff",
     "explicacion": "git diff muestra las diferencias entre los archivos modificados y la última versión registrada.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-39",
@@ -680,7 +680,7 @@
     "respuesta": "git restore nombreArchivo",
     "explicacion": "git restore devuelve el archivo a su estado del último commit.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-40",
@@ -697,7 +697,7 @@
     "respuesta": "Eliminar la rama local si ya no será utilizada.",
     "explicacion": "Eliminar ramas que ya fueron integradas ayuda a mantener el repositorio organizado.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-41",
@@ -714,7 +714,7 @@
     "respuesta": "git status",
     "explicacion": "Es una buena práctica revisar el estado del repositorio antes de comenzar a realizar cambios.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-42",
@@ -731,7 +731,7 @@
     "respuesta": "git status → git add → git commit → git push",
     "explicacion": "Este es el flujo básico recomendado para registrar y compartir cambios.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-43",
@@ -748,14 +748,14 @@
     "respuesta": "Git no pudo combinar automáticamente los cambios y requiere intervención del desarrollador.",
     "explicacion": "Cuando dos cambios afectan la misma parte de un archivo, Git solicita que el desarrollador resuelva el conflicto.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-44",
     "categoria": "Git",
     "tipo": "debug",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué problema presenta el siguiente comando?\n\ngit commmit -m \"Actualización\"",
+    "pregunta": "Analiza el siguiente comando:\n\ngit commmit -m \"Actualización\"",
     "opciones": [
       "La palabra commit está mal escrita.",
       "Falta el parámetro -m.",
@@ -765,7 +765,7 @@
     "respuesta": "La palabra commit está mal escrita.",
     "explicacion": "El comando correcto es git commit.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-45",
@@ -782,7 +782,7 @@
     "respuesta": "Actualizar la rama local con git pull.",
     "explicacion": "Trabajar sobre una copia actualizada reduce la probabilidad de conflictos posteriores.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-46",
@@ -799,7 +799,7 @@
     "respuesta": "Revisar el conflicto, decidir qué cambios conservar, probar el código y luego realizar el commit de la fusión.",
     "explicacion": "Los conflictos deben resolverse manualmente para garantizar que el resultado sea correcto.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-47",
@@ -816,7 +816,7 @@
     "respuesta": "Porque facilitan el seguimiento de cambios, la revisión de código y la recuperación ante errores.",
     "explicacion": "Los commits pequeños hacen que el historial sea más claro y sencillo de mantener.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-48",
@@ -833,7 +833,7 @@
     "respuesta": "La rama local está sincronizada con la rama remota.",
     "explicacion": "Git indica que no existen commits pendientes entre la rama local y el repositorio remoto.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-49",
@@ -850,7 +850,7 @@
     "respuesta": "Escribir mensajes de commit descriptivos y significativos.",
     "explicacion": "Los mensajes claros facilitan comprender qué cambios se realizaron y por qué.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "git-50",
@@ -867,7 +867,6 @@
     "respuesta": "Crear ramas para nuevas funcionalidades, realizar commits frecuentes, actualizar con git pull y fusionar los cambios cuando estén listos.",
     "explicacion": "Este flujo favorece la colaboración, reduce conflictos y facilita el mantenimiento del proyecto.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   }
 ]
-

@@ -3,8 +3,8 @@
     "id": "python-1",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Observa el siguiente código:\n\nnombre = \"Johanna\"\nprint(nombre)\n\n¿Qué mostrará el programa en pantalla?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente código:\n\nnombre = \"Johanna\"\nprint(nombre)\n\n¿Qué mostrará el programa en pantalla?",
     "opciones": [
       "Johanna",
       "\"nombre\"",
@@ -14,13 +14,13 @@
     "respuesta": "Johanna",
     "explicacion": "print() muestra el contenido almacenado en la variable.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-2",
     "categoria": "Python",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa la función para mostrar el mensaje 'Bienvenido'.",
     "modo": "slots",
     "plantilla": "{{slot0}}(\"Bienvenido\")",
@@ -35,13 +35,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-3",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Una aplicación necesita almacenar la edad de un empleado. ¿Cuál es el tipo de dato más apropiado?",
     "opciones": [
       "int",
@@ -52,14 +52,14 @@
     "respuesta": "int",
     "explicacion": "Las edades se representan mediante números enteros.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-4",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Observa el siguiente código:\n\nedad = 20\nprint(type(edad))\n\n¿Qué tipo de dato mostrará Python?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente código:\n\nedad = 20\nprint(type(edad))\n\n¿Qué tipo de dato mostrará Python?",
     "opciones": [
       "<class 'int'>",
       "<class 'str'>",
@@ -69,13 +69,13 @@
     "respuesta": "<class 'int'>",
     "explicacion": "La función type() devuelve el tipo de dato de una variable.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-5",
     "categoria": "Python",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa la función para solicitar el nombre del usuario.",
     "modo": "slots",
     "plantilla": "nombre = {{slot0}}(\"Ingrese su nombre: \")",
@@ -90,14 +90,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-6",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Observa el siguiente código:\n\nx = 8\ny = 2\nprint(x + y)\n\n¿Cuál será la salida?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente código:\n\nx = 8\ny = 2\nprint(x + y)\n\n¿Cuál será la salida?",
     "opciones": [
       "10",
       "82",
@@ -107,13 +107,13 @@
     "respuesta": "10",
     "explicacion": "El operador + realiza una suma entre números enteros.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-7",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Una empresa desea almacenar los nombres de varios empleados. ¿Qué estructura de datos es la más adecuada?",
     "opciones": [
       "list",
@@ -124,13 +124,13 @@
     "respuesta": "list",
     "explicacion": "Una lista permite almacenar múltiples elementos.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-8",
     "categoria": "Python",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el código para crear correctamente una lista con tres tecnologías.",
     "modo": "slots",
     "plantilla": "tecnologias = {{slot0}}\"Python\", \"Java\", \"SQL\"{{slot1}}",
@@ -148,14 +148,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-9",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Observa el siguiente código:\n\ntecnologias = [\"Python\", \"Java\", \"SQL\"]\nprint(len(tecnologias))\n\n¿Qué mostrará el programa?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente código:\n\ntecnologias = [\"Python\", \"Java\", \"SQL\"]\nprint(len(tecnologias))\n\n¿Qué mostrará el programa?",
     "opciones": [
       "2",
       "3",
@@ -165,14 +165,14 @@
     "respuesta": "3",
     "explicacion": "La función len() devuelve la cantidad de elementos de una lista.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-10",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Analiza el siguiente código:\n\nedad = 17\n\nif edad >= 18:\n    print(\"Mayor de edad\")\nelse:\n    print(\"Menor de edad\")\n\n¿Qué imprimirá el programa?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente código:\n\nedad = 17\nif edad >= 18:\n    print(\"Mayor de edad\")\nelse:\n    print(\"Menor de edad\")\n\n¿Qué imprimirá el programa?",
     "opciones": [
       "Mayor de edad",
       "Menor de edad",
@@ -182,13 +182,13 @@
     "respuesta": "Menor de edad",
     "explicacion": "Como la condición edad >= 18 no se cumple, se ejecuta el bloque else.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-11",
     "categoria": "Python",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el operador de comparación para verificar si el salario de un empleado es mayor o igual a $2.500.000.",
     "modo": "slots",
     "plantilla": "if salario {{slot0}} 2500000:\n    print(\"Aplica bono\")",
@@ -203,14 +203,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-12",
     "categoria": "Python",
     "tipo": "analizar-salida",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "x = 10\ny = 5\nprint(x - y)",
     "opciones": [
       "15",
@@ -219,16 +219,15 @@
       "Error"
     ],
     "respuesta": "5",
-    "explicacion": "Se resta el valor de y al valor de x."
-  ,
+    "explicacion": "Se resta el valor de y al valor de x.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-13",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Qué estructura de datos utilizarías para almacenar los nombres de los departamentos de una empresa?",
     "opciones": [
       "list",
@@ -239,13 +238,13 @@
     "respuesta": "list",
     "explicacion": "Las listas almacenan múltiples elementos ordenados.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-14",
     "categoria": "Python",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el método para agregar un nuevo empleado a la lista.",
     "modo": "slots",
     "plantilla": "empleados.{{slot0}}(\"Carlos\")",
@@ -260,14 +259,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-15",
     "categoria": "Python",
     "tipo": "analizar-salida",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué mostrará el siguiente código?",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "empleados = [\"Ana\", \"Luis\"]\nempleados.append(\"Carlos\")\nprint(len(empleados))",
     "opciones": [
       "2",
@@ -278,13 +277,13 @@
     "respuesta": "3",
     "explicacion": "append() agrega un nuevo elemento y len() devuelve la cantidad de elementos.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-16",
     "categoria": "Python",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Una aplicación necesita almacenar la información de un empleado (nombre, cargo y salario). ¿Qué estructura de datos es la más apropiada?",
     "opciones": [
       "dict",
@@ -295,13 +294,13 @@
     "respuesta": "dict",
     "explicacion": "Un diccionario almacena información mediante pares clave-valor.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-17",
     "categoria": "Python",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el código para acceder correctamente al nombre del empleado almacenado en el diccionario.",
     "modo": "slots",
     "plantilla": "empleado = {\"nombre\":\"Ana\",\"cargo\":\"Analista\"}\nprint(empleado[{{slot0}}])",
@@ -316,14 +315,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-18",
     "categoria": "Python",
     "tipo": "analizar-salida",
-    "dificultad": "Basico",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "dificultad": "Básico",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "edad = 25\nif edad > 18:\n    print(\"Adulto\")\nelse:\n    print(\"Menor\")",
     "opciones": [
       "Adulto",
@@ -334,14 +333,14 @@
     "respuesta": "Adulto",
     "explicacion": "La condición edad > 18 se cumple.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-19",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "for i in range(3):\n    print(i)",
     "opciones": [
       "1 2 3",
@@ -352,7 +351,7 @@
     "respuesta": "0 1 2",
     "explicacion": "range(3) genera los valores 0, 1 y 2.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-20",
@@ -373,14 +372,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-21",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "x = 5\nx += 3\nprint(x)",
     "opciones": [
       "5",
@@ -391,14 +390,14 @@
     "respuesta": "8",
     "explicacion": "El operador += incrementa el valor actual de la variable.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-22",
     "categoria": "Python",
     "tipo": "debug",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál es el error del siguiente código?",
+    "pregunta": "¿Qué error presenta el siguiente código?",
     "codigo": "for i in range(5)\n    print(i)",
     "opciones": [
       "Falta el signo : después de range(5)",
@@ -409,7 +408,7 @@
     "respuesta": "Falta el signo : después de range(5)",
     "explicacion": "En Python toda estructura de control debe terminar con dos puntos (:).",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-23",
@@ -430,14 +429,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-24",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "equipos = ['PC001','PC002','PC003']\nequipos.remove('PC002')\nprint(len(equipos))",
     "opciones": [
       "1",
@@ -448,7 +447,7 @@
     "respuesta": "2",
     "explicacion": "Después de eliminar un elemento quedan dos registros.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-25",
@@ -465,14 +464,14 @@
     "respuesta": "dict",
     "explicacion": "Los diccionarios almacenan información mediante claves y valores.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-26",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué imprimirá el siguiente código?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "empleado = {'nombre':'Ana','cargo':'Analista'}\nprint(empleado['cargo'])",
     "opciones": [
       "Ana",
@@ -483,14 +482,14 @@
     "respuesta": "Analista",
     "explicacion": "La clave 'cargo' devuelve el valor asociado dentro del diccionario.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-27",
     "categoria": "Python",
     "tipo": "debug",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué ocurrirá al ejecutar el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "empleados = []\nempleados.append('Ana')\nprint(empleados[1])",
     "opciones": [
       "Imprime Ana",
@@ -501,7 +500,7 @@
     "respuesta": "IndexError",
     "explicacion": "La lista solo tiene un elemento en la posición 0; acceder a la posición 1 genera un IndexError.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-28",
@@ -522,14 +521,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-29",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "for i in range(2,5):\n    print(i)",
     "opciones": [
       "2 3 4",
@@ -540,7 +539,7 @@
     "respuesta": "2 3 4",
     "explicacion": "range(2,5) genera los valores 2, 3 y 4.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-30",
@@ -557,14 +556,14 @@
     "respuesta": "Un ciclo combinado con una condición",
     "explicacion": "Es necesario recorrer la lista y evaluar una condición para cada elemento.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-31",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Intermedio",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "def saludar():\n    return \"Hola\"\n\nprint(saludar())",
     "opciones": [
       "Hola",
@@ -575,7 +574,7 @@
     "respuesta": "Hola",
     "explicacion": "La función devuelve la cadena 'Hola' mediante return.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-32",
@@ -596,14 +595,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-33",
     "categoria": "Python",
     "tipo": "debug",
     "dificultad": "Intermedio",
-    "pregunta": "¿Cuál es el error del siguiente código?",
+    "pregunta": "¿Qué error presenta el siguiente código?",
     "codigo": "def saludar()\n    print(\"Hola\")",
     "opciones": [
       "Faltan los dos puntos (:) al final de la definición de la función.",
@@ -614,7 +613,7 @@
     "respuesta": "Faltan los dos puntos (:) al final de la definición de la función.",
     "explicacion": "Toda definición de función en Python termina con dos puntos (:).",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-34",
@@ -631,14 +630,14 @@
     "respuesta": "Funciones",
     "explicacion": "Las funciones permiten reutilizar código y evitar duplicación.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-35",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "for i in range(5):\n    if i == 3:\n        break\n    print(i)",
     "opciones": [
       "0 1 2",
@@ -649,14 +648,14 @@
     "respuesta": "0 1 2",
     "explicacion": "break finaliza el ciclo cuando i vale 3.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-36",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "for i in range(5):\n    if i == 2:\n        continue\n    print(i)",
     "opciones": [
       "0 1 3 4",
@@ -667,7 +666,7 @@
     "respuesta": "0 1 3 4",
     "explicacion": "continue omite únicamente la iteración donde i es igual a 2.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-37",
@@ -688,7 +687,7 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-38",
@@ -705,14 +704,14 @@
     "respuesta": "empleado['salario']",
     "explicacion": "En Python los valores de un diccionario se obtienen mediante su clave.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-39",
     "categoria": "Python",
     "tipo": "debug",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué problema presenta el siguiente código?",
+    "pregunta": "¿Qué error presenta el siguiente código?",
     "codigo": "numeros = [1,2,3]\nprint(numeros[3])",
     "opciones": [
       "IndexError",
@@ -723,7 +722,7 @@
     "respuesta": "IndexError",
     "explicacion": "La lista tiene índices 0, 1 y 2. Intentar acceder al índice 3 produce un IndexError.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-40",
@@ -740,14 +739,14 @@
     "respuesta": "Recorrer la lista con un for y evaluar una condición if",
     "explicacion": "La combinación de un ciclo y una condición permite filtrar los elementos que cumplen el criterio.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-41",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "numeros = [2, 4, 6]\nprint(sum(numeros))",
     "opciones": [
       "12",
@@ -758,7 +757,7 @@
     "respuesta": "12",
     "explicacion": "La función sum() retorna la suma de todos los elementos de la lista.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-42",
@@ -779,14 +778,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-43",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "salarios = [3500000,2100000,1800000]\nsalarios.sort()\nprint(salarios[0])",
     "opciones": [
       "3500000",
@@ -797,7 +796,7 @@
     "respuesta": "1800000",
     "explicacion": "sort() ordena la lista ascendentemente y el índice 0 contiene el menor valor.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-44",
@@ -814,14 +813,14 @@
     "respuesta": "Recorrer toda la lista comparando cada salario con el mayor encontrado.",
     "explicacion": "Para encontrar el máximo es necesario comparar todos los elementos.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-45",
     "categoria": "Python",
     "tipo": "debug",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué problema presenta el siguiente código?",
+    "pregunta": "¿Qué error presenta el siguiente código?",
     "codigo": "nombre = input('Nombre: ')\nprint(nombre.upper)",
     "opciones": [
       "Faltan los paréntesis al llamar el método upper().",
@@ -832,7 +831,7 @@
     "respuesta": "Faltan los paréntesis al llamar el método upper().",
     "explicacion": "upper es un método y debe invocarse como upper().",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-46",
@@ -853,14 +852,14 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-47",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "texto = 'Python'\nprint(texto.lower())",
     "opciones": [
       "PYTHON",
@@ -871,7 +870,7 @@
     "respuesta": "python",
     "explicacion": "lower() convierte todos los caracteres a minúsculas.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-48",
@@ -888,14 +887,14 @@
     "respuesta": "\"PC005\" in equipos",
     "explicacion": "El operador in verifica si un elemento pertenece a una colección.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-49",
     "categoria": "Python",
     "tipo": "analizar-salida",
     "dificultad": "Avanzado",
-    "pregunta": "¿Qué imprimirá el siguiente programa?",
+    "pregunta": "¿Cuál será la salida del siguiente código?",
     "codigo": "equipos = ['PC001','PC002','PC003']\nprint('PC002' in equipos)",
     "opciones": [
       "True",
@@ -906,7 +905,7 @@
     "respuesta": "True",
     "explicacion": "El operador in devuelve True cuando el elemento pertenece a la lista.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "python-50",
@@ -923,6 +922,6 @@
     "respuesta": "Permite reutilizar el código y facilitar su mantenimiento.",
     "explicacion": "Las funciones ayudan a evitar duplicación de código, mejoran la organización y facilitan el mantenimiento.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   }
 ]

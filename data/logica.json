@@ -1,9 +1,9 @@
 [
   {
     "id": "logica-1",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Una aplicación solicita el nombre del usuario para mostrar un mensaje de bienvenida. ¿Qué concepto de programación representa el dato donde se almacenará ese nombre?",
     "opciones": [
       "Variable",
@@ -14,13 +14,13 @@
     "respuesta": "Variable",
     "explicacion": "Una variable almacena información que puede utilizarse durante la ejecución del programa.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-2",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el algoritmo para leer el nombre de un usuario.",
     "modo": "slots",
     "plantilla": "Inicio\n{{slot0}} nombre\nMostrar nombre\nFin",
@@ -35,13 +35,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-3",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Cuál operador se utiliza normalmente para verificar si dos valores son iguales?",
     "opciones": [
       "=",
@@ -52,13 +52,13 @@
     "respuesta": "==",
     "explicacion": "El operador == compara dos valores.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-4",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Una empresa otorga un bono únicamente si el salario supera los $2.500.000. ¿Qué estructura de programación permite tomar esa decisión?",
     "opciones": [
       "Condicional",
@@ -69,13 +69,13 @@
     "respuesta": "Condicional",
     "explicacion": "Las estructuras condicionales permiten ejecutar acciones dependiendo de una condición.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-5",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el operador correcto.",
     "modo": "slots",
     "plantilla": "SI salario {{slot0}} 2500000\n Mostrar \"Aplica bono\"\nFIN SI",
@@ -90,13 +90,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-6",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Cuál estructura se utiliza para repetir un conjunto de instrucciones varias veces?",
     "opciones": [
       "Ciclo",
@@ -107,14 +107,14 @@
     "respuesta": "Ciclo",
     "explicacion": "Los ciclos permiten repetir instrucciones mientras se cumpla una condición o un número determinado de veces.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-7",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Observa el algoritmo:\n\ncontador = contador + 1\n\n¿Qué hace esta instrucción?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente algoritmo:\n\ncontador = contador + 1\n\n¿Qué hace esta instrucción?",
     "opciones": [
       "Incrementa el contador",
       "Reinicia el contador",
@@ -124,13 +124,13 @@
     "respuesta": "Incrementa el contador",
     "explicacion": "Cada vez que se ejecuta la instrucción el contador aumenta en una unidad.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-8",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el algoritmo para mostrar un mensaje en pantalla.",
     "modo": "slots",
     "plantilla": "Inicio\n{{slot0}} \"Bienvenido\"\nFin",
@@ -145,13 +145,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-9",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Una empresa necesita almacenar varios nombres de empleados para procesarlos posteriormente. ¿Qué estructura de datos es la más adecuada?",
     "opciones": [
       "Lista",
@@ -162,13 +162,13 @@
     "respuesta": "Lista",
     "explicacion": "Una lista permite almacenar varios elementos del mismo tipo.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-10",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Analiza el siguiente algoritmo:\n\nInicio\nLeer edad\nSi edad >= 18\n   Mostrar \"Mayor de edad\"\nSino\n   Mostrar \"Menor de edad\"\nFinSi\nFin\n\nSi el usuario ingresa 17, ¿qué mensaje mostrará el algoritmo?",
     "opciones": [
       "Mayor de edad",
@@ -179,13 +179,13 @@
     "respuesta": "Menor de edad",
     "explicacion": "Como 17 no cumple la condición edad >= 18, se ejecuta el bloque del Sino.",
     "puntos": 10,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-11",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el algoritmo para leer el salario de un empleado y mostrarlo en pantalla.",
     "modo": "slots",
     "plantilla": "Inicio\n{{slot0}} salario\nMostrar salario\nFin",
@@ -200,13 +200,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-12",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Analiza el siguiente algoritmo:\n\nnumero = 15\nMostrar numero\n\n¿Qué se mostrará en pantalla?",
     "opciones": [
       "15",
@@ -217,13 +217,13 @@
     "respuesta": "15",
     "explicacion": "La variable contiene el valor 15, por lo tanto ese será el resultado mostrado.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-13",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Cuál es el propósito principal de utilizar un algoritmo antes de programar?",
     "opciones": [
       "Organizar la solución de un problema",
@@ -234,13 +234,13 @@
     "respuesta": "Organizar la solución de un problema",
     "explicacion": "Un algoritmo describe paso a paso cómo resolver un problema antes de implementarlo en un lenguaje.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-14",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa el operador lógico correcto.",
     "modo": "slots",
     "plantilla": "SI usuarioActivo {{slot0}} tienePermiso\nMostrar \"Acceso permitido\"\nFIN SI",
@@ -255,13 +255,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-15",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Un sistema debe repetir una validación hasta que el usuario ingrese una contraseña correcta. ¿Qué estructura de control es la más adecuada?",
     "opciones": [
       "Ciclo",
@@ -272,14 +272,14 @@
     "respuesta": "Ciclo",
     "explicacion": "Los ciclos permiten repetir instrucciones mientras una condición no se cumpla.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-16",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
-    "pregunta": "Analiza el algoritmo:\n\nx = 8\ny = 5\nMostrar x + y\n\n¿Cuál será la salida?",
+    "dificultad": "Básico",
+    "pregunta": "Analiza el siguiente algoritmo:\n\nx = 8\ny = 5\nMostrar x + y\n\n¿Cuál será la salida?",
     "opciones": [
       "13",
       "85",
@@ -289,13 +289,13 @@
     "respuesta": "13",
     "explicacion": "El algoritmo suma los valores de x e y.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-17",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "Completa la condición para determinar si una persona puede ingresar a un evento siendo mayor o igual a 18 años.",
     "modo": "slots",
     "plantilla": "SI edad {{slot0}} 18\nMostrar \"Puede ingresar\"\nFIN SI",
@@ -310,13 +310,13 @@
     ],
     "evaluacion": "slots",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-18",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
-    "dificultad": "Basico",
+    "dificultad": "Básico",
     "pregunta": "¿Cuál de las siguientes opciones representa correctamente una secuencia lógica para registrar un nuevo empleado?",
     "opciones": [
       "Leer datos → Validar → Guardar → Mostrar confirmación",
@@ -327,11 +327,11 @@
     "respuesta": "Leer datos → Validar → Guardar → Mostrar confirmación",
     "explicacion": "Primero se capturan los datos, luego se validan, se almacenan y finalmente se informa el resultado.",
     "puntos": 15,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-19",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Analiza el siguiente algoritmo:\n\ncontador = 1\nMientras contador <= 3\n   Mostrar contador\n   contador = contador + 1\nFinMientras\n\n¿Cuál será la salida?",
@@ -344,11 +344,11 @@
     "respuesta": "1 2 3",
     "explicacion": "El ciclo se ejecuta mientras el contador sea menor o igual a 3.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-20",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa el algoritmo para recorrer correctamente una lista de cinco elementos.",
@@ -365,11 +365,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-21",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Analiza el siguiente algoritmo:\n\nx = 4\ny = x + 3\nMostrar y\n\n¿Qué valor se mostrará?",
@@ -382,11 +382,11 @@
     "respuesta": "7",
     "explicacion": "Primero x vale 4. Luego y toma el valor de x más 3.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-22",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el propósito de un contador dentro de un algoritmo?",
@@ -399,11 +399,11 @@
     "respuesta": "Contar cuántas veces ocurre un evento",
     "explicacion": "Los contadores normalmente aumentan de uno en uno.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-23",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la instrucción para incrementar correctamente un contador.",
@@ -420,11 +420,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-24",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es la función de un acumulador en un algoritmo?",
@@ -437,14 +437,14 @@
     "respuesta": "Ir sumando valores durante un proceso",
     "explicacion": "Un acumulador conserva una suma parcial durante la ejecución.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-25",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Observa el algoritmo:\n\ntotal = 0\n\nPARA i = 1 HASTA 3\n   total = total + i\nFIN PARA\n\n¿Qué valor tendrá la variable total al finalizar?",
+    "pregunta": "Analiza el siguiente algoritmo:\n\ntotal = 0\nPARA i = 1 HASTA 3\n   total = total + i\nFIN PARA\n\n¿Qué valor tendrá la variable total al finalizar?",
     "opciones": [
       "3",
       "6",
@@ -454,11 +454,11 @@
     "respuesta": "6",
     "explicacion": "0+1=1, luego 1+2=3 y finalmente 3+3=6.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-26",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "En una empresa se desea contar cuántos equipos están disponibles para entrega. ¿Qué variable utilizarías?",
@@ -471,11 +471,11 @@
     "respuesta": "contador",
     "explicacion": "Para contabilizar elementos se utiliza un contador.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-27",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Analiza el siguiente algoritmo:\n\nx = 8\nx = x - 3\nMostrar x\n\n¿Qué mostrará el algoritmo?",
@@ -488,11 +488,11 @@
     "respuesta": "5",
     "explicacion": "A la variable x se le resta 3.",
     "puntos": 20,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-28",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa correctamente la condición para repetir un ciclo mientras existan registros por procesar.",
@@ -509,11 +509,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-29",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuántas veces se ejecutará el siguiente ciclo?\n\nPARA i = 1 HASTA 5\n   Mostrar i\nFIN PARA",
@@ -526,14 +526,14 @@
     "respuesta": "5",
     "explicacion": "El ciclo inicia en 1 y termina en 5, ejecutándose cinco veces.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-30",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
-    "pregunta": "Observa el siguiente algoritmo:\n\nInicio\nLeer edad\nSI edad >= 18\n   Mostrar \"Mayor\"\nSINO\n   Mostrar \"Menor\"\nFIN SI\nFin\n\n¿Qué ocurrirá si el usuario ingresa 18?",
+    "pregunta": "Analiza el siguiente algoritmo:\n\nInicio\nLeer edad\nSI edad >= 18\n   Mostrar \"Mayor\"\nSINO\n   Mostrar \"Menor\"\nFIN SI\nFin\n\n¿Qué ocurrirá si el usuario ingresa 18?",
     "opciones": [
       "Mostrará 'Mayor'",
       "Mostrará 'Menor'",
@@ -543,11 +543,11 @@
     "respuesta": "Mostrará 'Mayor'",
     "explicacion": "La condición utiliza >=, por lo tanto el valor 18 cumple la condición.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-31",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "Analiza el siguiente algoritmo:\n\nx = 5\ny = 10\ntemp = x\nx = y\ny = temp\n\n¿Cuáles serán los valores finales de x e y?",
@@ -560,11 +560,11 @@
     "respuesta": "x=10, y=5",
     "explicacion": "La variable temporal permite intercambiar correctamente los valores.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-32",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Qué error presenta el siguiente algoritmo?\n\nInicio\nSI edad >= 18\nMostrar \"Mayor\"\nFin",
@@ -577,11 +577,11 @@
     "respuesta": "Falta leer la variable edad antes de evaluarla.",
     "explicacion": "Antes de utilizar una variable debe asignársele un valor.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-33",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Intermedio",
     "pregunta": "Completa la condición para validar que un usuario exista antes de mostrar su información.",
@@ -598,11 +598,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-34",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Intermedio",
     "pregunta": "¿Cuál es el orden correcto para desarrollar un algoritmo que registre un nuevo activo tecnológico?",
@@ -615,14 +615,14 @@
     "respuesta": "Leer datos → Validar → Guardar → Confirmar",
     "explicacion": "Primero se capturan los datos, luego se validan, se almacenan y finalmente se informa el resultado.",
     "puntos": 25,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-35",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Analiza el siguiente algoritmo:\n\nlista = [3,6,9]\ncontador = 0\n\nPARA cada numero EN lista\n   contador = contador + 1\nFIN PARA\n\n¿Qué valor tendrá contador al finalizar?",
+    "pregunta": "Analiza el siguiente algoritmo:\n\nlista = [3,6,9]\ncontador = 0\nPARA cada numero EN lista\n   contador = contador + 1\nFIN PARA\n\n¿Qué valor tendrá contador al finalizar?",
     "opciones": [
       "2",
       "3",
@@ -632,11 +632,11 @@
     "respuesta": "3",
     "explicacion": "El contador aumenta una vez por cada elemento de la lista.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-36",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el error lógico del siguiente algoritmo?\n\ncontador = 1\nMIENTRAS contador <= 5\nMostrar contador\nFIN MIENTRAS",
@@ -649,11 +649,11 @@
     "respuesta": "Nunca incrementa el contador.",
     "explicacion": "Al no incrementar el contador, el ciclo nunca termina.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-37",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa correctamente la instrucción que incrementa el contador dentro del ciclo.",
@@ -670,11 +670,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-38",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Una empresa desea recorrer una lista de 200 empleados para validar sus datos. ¿Qué estructura es la más adecuada?",
@@ -687,14 +687,14 @@
     "respuesta": "Un ciclo",
     "explicacion": "Los ciclos permiten recorrer colecciones de datos de manera eficiente.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-39",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Observa el algoritmo:\n\nnumero = 8\n\nSI numero % 2 == 0\nMostrar \"Par\"\nSINO\nMostrar \"Impar\"\nFIN SI\n\n¿Qué mostrará el algoritmo?",
+    "pregunta": "Analiza el siguiente algoritmo:\n\nnumero = 8\nSI numero % 2 == 0\nMostrar \"Par\"\nSINO\nMostrar \"Impar\"\nFIN SI\n\n¿Qué mostrará el algoritmo?",
     "opciones": [
       "Par",
       "Impar",
@@ -704,11 +704,11 @@
     "respuesta": "Par",
     "explicacion": "El residuo de dividir 8 entre 2 es 0, por lo tanto el número es par.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-40",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Un sistema registra computadores. Antes de guardar la información debe verificar que el número de serie no exista previamente. ¿Qué concepto de programación representa esta validación?",
@@ -721,11 +721,11 @@
     "respuesta": "Condicional",
     "explicacion": "La validación implica tomar una decisión dependiendo de si el serial ya existe o no.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-41",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Una empresa necesita identificar cuál de tres cotizaciones tiene el mayor valor para aprobar una compra. ¿Qué estructura de programación utilizarías principalmente para resolver este problema?",
@@ -738,11 +738,11 @@
     "respuesta": "Condicionales",
     "explicacion": "Comparar tres valores requiere realizar decisiones mediante condiciones.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-42",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Debes calcular el promedio de las calificaciones de 30 estudiantes. ¿Qué estructura facilita recorrer todas las notas?",
@@ -755,11 +755,11 @@
     "respuesta": "Ciclo",
     "explicacion": "Un ciclo permite recorrer todos los elementos para calcular el promedio.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-43",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa el algoritmo para acumular correctamente el valor de una compra.",
@@ -776,11 +776,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-44",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "En un sistema de inventario debes verificar si un número de serie ingresado por el usuario ya existe antes de registrar un nuevo equipo. ¿Qué acción debe realizar primero el algoritmo?",
@@ -793,14 +793,14 @@
     "respuesta": "Buscar el número de serie existente",
     "explicacion": "Antes de insertar un nuevo registro es necesario verificar que no exista previamente.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-45",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
-    "pregunta": "Observa el algoritmo:\n\ncontador = 0\nPARA i = 1 HASTA 4\n   contador = contador + 2\nFIN PARA\n\n¿Cuál será el valor final de contador?",
+    "pregunta": "Analiza el siguiente algoritmo:\n\ncontador = 0\nPARA i = 1 HASTA 4\n   contador = contador + 2\nFIN PARA\n\n¿Cuál será el valor final de contador?",
     "opciones": [
       "4",
       "6",
@@ -810,11 +810,11 @@
     "respuesta": "8",
     "explicacion": "El ciclo se ejecuta cuatro veces y en cada iteración suma 2.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-46",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Una empresa desea validar que una contraseña tenga al menos 8 caracteres antes de permitir el acceso. ¿Qué estructura de programación realiza esta validación?",
@@ -827,11 +827,11 @@
     "respuesta": "Condicional",
     "explicacion": "La longitud de la contraseña se compara mediante una condición antes de continuar.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-47",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "¿Cuál es el error lógico del siguiente algoritmo?\n\nsuma = 0\nPARA i = 1 HASTA 5\n   suma = i\nFIN PARA",
@@ -844,11 +844,11 @@
     "respuesta": "Debe acumular usando suma = suma + i",
     "explicacion": "La instrucción reemplaza el valor de suma en cada iteración en lugar de acumularlo.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-48",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "codigo",
     "dificultad": "Avanzado",
     "pregunta": "Completa la condición para determinar si un número es par.",
@@ -865,11 +865,11 @@
     ],
     "evaluacion": "slots",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-49",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Una lista contiene los salarios de varios empleados. ¿Qué estrategia es la más adecuada para encontrar el salario más alto?",
@@ -882,11 +882,11 @@
     "respuesta": "Recorrer toda la lista comparando cada salario con el mayor encontrado",
     "explicacion": "El algoritmo debe comparar cada elemento para identificar el valor máximo.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   },
   {
     "id": "logica-50",
-    "categoria": "Logica de Programacion",
+    "categoria": "Lógica de Programación",
     "tipo": "multiple",
     "dificultad": "Avanzado",
     "pregunta": "Una empresa desea desarrollar un sistema para registrar empleados. Antes de escribir el código, ¿cuál debería ser el primer paso para resolver el problema de manera organizada?",
@@ -899,6 +899,6 @@
     "respuesta": "Analizar el problema y diseñar el algoritmo",
     "explicacion": "El análisis del problema y el diseño del algoritmo permiten construir una solución correcta antes de programar.",
     "puntos": 30,
-    "timeLimit": 90 
+    "timeLimit": 90
   }
 ]
